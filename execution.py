@@ -10,8 +10,6 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler
 
 
-
-
 af_data = pd.read_csv('afrika.csv')
 ir_data = pd.read_csv('irak.csv')
 pk_data = pd.read_csv('pakistan.csv')
@@ -239,6 +237,7 @@ def transform_pakistani_data(df):
     )
 
     return transformed
+
 af_data = af_data.dropna(subset=['Your Matric (grade 12) Average/ GPA (in %)'])
 ir_data = ir_data.dropna(subset=['Avg1', 'Avg2'])
 
