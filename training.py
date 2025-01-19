@@ -1,20 +1,19 @@
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import cross_val_score
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import accuracy_score
 
 #modeli
 #rf
-data = pd.read_csv('objedinjeniNoviBezPak.csv')
+data = pd.read_csv('Afr-Ir-Port.csv')
 
-X = data.drop(columns=['ocena', 'pol'])  
+X = data.drop(columns=['ocena', 'pol', 'u_romanticnoj_vezi'])  
 y = data['ocena']  
 
 label_encoder = LabelEncoder()
@@ -37,37 +36,33 @@ X_valid=scaler.transform(X_valid)
 
 
 # KNN Model
-'''
-knn_model = KNeighborsClassifier()
-knn_param_grid = {
-    'n_neighbors': [13,15],
-    'weights': ['uniform', 'distance'],
-    'algorithm': ['auto', 'kd_tree'],
-    'metric': ['euclidean', 'manhattan'],
-    'leaf_size': [5, 10],
-    'p': [1, 2]
-}
 
-knn_grid_search = GridSearchCV(estimator=knn_model, param_grid=knn_param_grid, cv=7, n_jobs=-1, verbose=10)
-knn_grid_search.fit(X_train, y_train)
+knn_model = KNeighborsClassifier(
+    algorithm = 'auto',
+    leaf_size = 5,
+    metric = 'manhattan',
+    n_neighbors = 15,
+    p = 1,
+    weights = 'uniform'
+)
 
-best_knn_model = knn_grid_search.best_estimator_
-y_pred_knn = best_knn_model.predict(X_valid)
+knn_model.fit(X_train, y_train)
+
+y_pred_knn = knn_model.predict(X_valid)
 knn_accuracy = accuracy_score(y_valid, y_pred_knn)
 print(f"Tačnost k-NN modela: {knn_accuracy:.4f}")
 
-y_pred_knn_test = best_knn_model.predict(X_test)
+y_pred_knn_test = knn_model.predict(X_test)
 knn_test_accuracy = accuracy_score(y_test, y_pred_knn_test)
 print(f"Tačnost k-NN modela na test skupu: {knn_test_accuracy:.4f}")
-'''
+
 #RF
 rf = RandomForestClassifier(
     n_estimators=100,  
-    max_depth=15,    
+    max_depth=10,    
     random_state=42,
-    min_samples_split=10,
-    min_samples_leaf=5,
-    class_weight='balanced'    
+    min_samples_split=15,
+    min_samples_leaf=5   
 )
 
 rf.fit(X_train, y_train)
@@ -83,11 +78,13 @@ print("RF Accuracy:", accuracy_score(y_test, y_test_pred))
 
 #mlp
 mlp = MLPClassifier(
-    hidden_layer_sizes=(60, 60, 30),
-    max_iter=1500,               
+    hidden_layer_sizes=(10, 20, 20, 20, 15),
+    max_iter=700,               
     activation='relu',
     solver='adam',    
-    random_state=42
+    random_state=42,
+    learning_rate_init = 0.001,
+    alpha = 0.001
 )
 
 mlp.fit(X_train, y_train)
@@ -95,3 +92,22 @@ mlp.fit(X_train, y_train)
 y_test_pred = mlp.predict(X_test)
 
 print("MLP Accuracy:", accuracy_score(y_test, y_test_pred))
+
+X = [[3,            #godina
+      'Arts',       #oblast
+      'Portugal',   #drzava
+      3,            #sati ucenja
+      'vgood',      #prisustvo
+      'Private',    #smestaj
+      'vgood',      #finansije
+      'Very close', #odnos sa roditeljima
+      'no']]        #ponavlja (godinu, predmet)
+
+for i in range(len(X)):
+    X[i] = label_encoder.fit_transform(X[i])
+
+X = scaler.transform(X)
+predicted_output = mlp.predict(X)
+
+#problem je sto ne znam sta je [0], [1], [2]
+print("Predicted Output:", predicted_output)
