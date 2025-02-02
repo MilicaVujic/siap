@@ -11,9 +11,10 @@ from sklearn.metrics import accuracy_score
 
 #modeli
 #rf
-data = pd.read_csv('Afr-Ir-Port.csv')
+data = pd.read_csv('Afr-Ir-Por-Pak.csv')
 
-X = data.drop(columns=['ocena', 'pol', 'u_romanticnoj_vezi'])  
+#X = data.drop(columns=['ocena', 'pol', 'u_romanticnoj_vezi'])  
+X=data.drop(columns=['pol','ocena'])
 y = data['ocena']  
 
 label_encoder = LabelEncoder()
@@ -92,7 +93,7 @@ mlp.fit(X_train, y_train)
 y_test_pred = mlp.predict(X_test)
 
 print("MLP Accuracy:", accuracy_score(y_test, y_test_pred))
-
+'''
 X = [[3,            #godina
       'Arts',       #oblast
       'Portugal',   #drzava
@@ -102,6 +103,16 @@ X = [[3,            #godina
       'vgood',      #finansije
       'Very close', #odnos sa roditeljima
       'no']]        #ponavlja (godinu, predmet)
+'''
+X = [[3,            #godina
+      'Arts',       #oblast
+      'Portugal',   #drzava
+      3,            #sati ucenja
+      'vgood',      #prisustvo
+      'Private',    #smestaj
+      'vgood',      #finansije
+      'Very close' #odnos sa roditeljima
+]]       
 
 for i in range(len(X)):
     X[i] = label_encoder.fit_transform(X[i])

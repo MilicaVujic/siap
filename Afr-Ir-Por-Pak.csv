@@ -1,0 +1,1010 @@
+pol,godina_studija,oblast,drzava,ocena,sati_ucenja_nedeljno,prisustvo_na_nastavi,smestaj,finansijski_status,bliskost_sa_roditeljima
+F,2.0,Arts,Africa,B,2.0,good,Private,poor,Very close
+M,2.0,Business,Africa,A,2.0,poor,Private,vgood,Very close
+M,1.0,Biology,Africa,B,2.0,good,Private,poor,Very close
+M,2.0,Engineering,Africa,A,2.0,good,Private,vgood,Very close
+F,2.0,Arts,Africa,B,2.0,vgood,Private,poor,Fair
+M,2.0,Engineering,Africa,B,2.0,good,Private,vgood,Very close
+M,2.0,Business,Africa,B,2.0,vgood,Private,good,Very close
+F,2.0,Arts,Africa,B,2.0,good,Private,good,Very close
+M,2.0,Engineering,Africa,A,2.0,vgood,Private,good,Very close
+M,2.0,Science,Africa,B,2.0,poor,Private,vgood,Close
+F,2.0,Biology,Africa,B,2.0,vgood,Private,poor,Close
+F,2.0,Arts,Africa,B,2.0,vgood,Private,vgood,Close
+M,2.0,Business,Africa,B,2.0,good,Private,good,Very close
+F,2.0,Business,Africa,B,2.0,vgood,Private,vgood,Very close
+M,2.0,Science,Africa,B,2.0,vgood,Private,poor,Very close
+F,1.0,Science,Africa,A,2.0,vgood,Private,poor,Very close
+F,1.0,Engineering,Africa,B,2.0,vgood,Private,poor,Fair
+M,1.0,Business,Africa,B,2.0,vgood,Private,good,Very close
+F,1.0,Medicine,Africa,B,2.0,vgood,Private,poor,Very close
+M,2.0,Arts,Africa,C,2.0,good,Private,vgood,Very close
+M,2.0,Business,Africa,B,2.0,vgood,Non private,good,Fair
+M,2.0,Engineering,Africa,B,2.0,vgood,Private,poor,Very close
+F,2.0,Arts,Africa,B,2.0,vgood,Private,poor,Very close
+F,2.0,Law,Africa,B,2.0,good,Private,poor,Very close
+F,1.0,Business,Africa,B,2.0,good,Private,vgood,Very close
+M,2.0,Arts,Africa,B,2.0,good,Private,vgood,Very close
+M,3.0,Engineering,Africa,B,2.0,vgood,Private,good,Very close
+M,2.0,Engineering,Africa,B,2.0,vgood,Private,vgood,Very close
+F,2.0,Business,Africa,B,2.0,vgood,Non private,good,Very close
+F,1.0,Business,Africa,B,2.0,vgood,Private,vgood,Very close
+M,2.0,Engineering,Africa,A,2.0,vgood,Private,good,Very close
+M,1.0,Engineering,Africa,B,2.0,vgood,Private,poor,Very close
+M,1.0,Business,Africa,B,2.0,vgood,Private,good,Close
+M,2.0,Business,Africa,B,2.0,good,Private,good,Very close
+F,2.0,Science,Africa,B,2.0,vgood,Private,vgood,Very close
+M,1.0,Business,Africa,B,2.0,good,Private,poor,Very close
+M,2.0,Business,Africa,B,2.0,good,Private,good,Very close
+M,1.0,Business,Africa,B,2.0,good,Private,good,Close
+M,2.0,Business,Africa,A,2.0,good,Private,poor,Very close
+F,2.0,Arts,Africa,B,2.0,vgood,Private,poor,Close
+F,1.0,Business,Africa,B,2.0,good,Private,vgood,Close
+F,2.0,Business,Africa,C,2.0,good,Private,poor,Very close
+M,2.0,Business,Africa,B,2.0,poor,Private,good,Very close
+F,2.0,Business,Africa,B,2.0,vgood,Private,good,Close
+F,2.0,Business,Africa,B,2.0,vgood,Private,poor,Very close
+F,2.0,Arts,Africa,B,2.0,good,Private,good,Very close
+M,2.0,Business,Africa,B,2.0,vgood,Private,vgood,Very close
+M,1.0,Arts,Africa,B,2.0,vgood,Private,good,Very close
+M,2.0,Business,Africa,B,2.0,vgood,Private,poor,Close
+F,1.0,Business,Africa,A,2.0,vgood,Private,good,Very close
+M,2.0,Business,Africa,B,2.0,vgood,Private,vgood,Close
+M,1.0,Business,Africa,C,2.0,vgood,Private,vgood,Close
+F,1.0,Business,Africa,C,2.0,good,Non private,poor,Very close
+M,1.0,Science,Africa,B,2.0,vgood,Non private,poor,Close
+M,1.0,Engineering,Africa,A,2.0,vgood,Private,poor,Distant
+M,2.0,Arts,Africa,B,2.0,vgood,Private,poor,Close
+F,1.0,Medicine,Africa,B,2.0,good,Non private,vgood,Very close
+M,2.0,Business,Africa,B,2.0,poor,Private,poor,Fair
+F,1.0,Medicine,Africa,B,2.0,vgood,Private,poor,Very close
+F,2.0,Law,Africa,A,2.0,vgood,Private,good,Very close
+F,3.0,Education,Africa,B,2.0,vgood,Private,vgood,Very close
+F,1.0,Science,Africa,B,2.0,good,Private,poor,Close
+F,2.0,Engineering,Africa,B,2.0,vgood,Private,poor,Close
+F,1.0,Business,Africa,B,2.0,vgood,Private,poor,Very close
+F,1.0,Science,Africa,B,2.0,good,Private,poor,Very close
+M,2.0,Science,Africa,B,2.0,vgood,Private,vgood,Very close
+F,2.0,Engineering,Africa,B,2.0,poor,Private,vgood,Close
+F,3.0,Arts,Africa,B,2.0,vgood,Private,poor,Very close
+M,4.0,Biology,Africa,B,2.0,vgood,Private,vgood,Very close
+F,2.0,Science,Africa,B,2.0,vgood,Non private,poor,Very close
+M,1.0,Arts,Africa,B,2.0,good,Private,good,Very close
+F,2.0,Arts,Africa,B,2.0,vgood,Private,poor,Very close
+F,2.0,Business,Africa,A,2.0,vgood,Non private,poor,Close
+F,1.0,Biology,Africa,C,2.0,vgood,Private,vgood,Very close
+M,2.0,Business,Africa,B,2.0,vgood,Private,vgood,Very close
+F,2.0,Law,Africa,B,2.0,good,Private,poor,Very close
+F,2.0,Science,Africa,A,2.0,vgood,Private,poor,Very close
+M,2.0,Business,Africa,B,2.0,vgood,Private,good,Very close
+M,3.0,Biology,Africa,B,2.0,vgood,Private,good,Very close
+F,3.0,Medicine,Africa,B,2.0,vgood,Private,vgood,Very close
+F,3.0,Arts,Africa,B,2.0,vgood,Private,good,Very close
+F,2.0,Business,Africa,B,2.0,good,Private,vgood,Very close
+F,2.0,Business,Africa,B,2.0,vgood,Private,poor,Very close
+F,3.0,Business,Africa,B,2.0,vgood,Private,good,Very close
+F,3.0,Science,Africa,B,2.0,vgood,Non private,good,Very close
+F,2.0,Business,Africa,B,2.0,vgood,Private,good,Very close
+F,2.0,Law,Africa,B,2.0,good,Private,vgood,Very close
+M,1.0,Business,Africa,C,2.0,vgood,Private,poor,Very close
+F,2.0,Engineering,Africa,B,2.0,good,Private,poor,Very close
+F,1.0,Biology,Africa,B,2.0,vgood,Private,good,Very close
+F,2.0,Science,Africa,B,2.0,good,Private,vgood,Very close
+F,3.0,Arts,Africa,B,2.0,vgood,Private,vgood,Close
+M,2.0,Business,Africa,B,2.0,vgood,Private,vgood,Very close
+M,2.0,Business,Africa,B,2.0,vgood,Private,poor,Fair
+F,3.0,Business,Africa,B,2.0,vgood,Private,good,Close
+M,3.0,Arts,Africa,C,2.0,vgood,Private,poor,Very close
+M,2.0,Business,Africa,C,2.0,vgood,Private,vgood,Very close
+M,3.0,Biology,Africa,B,2.0,vgood,Private,poor,Very close
+M,2.0,Business,Africa,B,2.0,vgood,Private,good,Very close
+F,1.0,Arts,Africa,B,2.0,vgood,Private,vgood,Very close
+M,2.0,Business,Africa,B,2.0,good,Private,vgood,Fair
+M,1.0,Business,Africa,B,2.0,vgood,Private,poor,Very close
+M,1.0,Business,Africa,C,2.0,vgood,Private,poor,Very close
+M,2.0,Engineering,Africa,B,2.0,poor,Private,vgood,Very close
+F,1.0,Business,Africa,B,2.0,good,Private,poor,Very close
+M,1.0,Business,Africa,B,2.0,vgood,Private,vgood,Fair
+M,3.0,Science,Africa,B,2.0,vgood,Private,vgood,Close
+M,2.0,Business,Africa,B,2.0,poor,Private,good,Close
+F,2.0,Business,Africa,B,2.0,vgood,Private,vgood,Very close
+F,3.0,Science,Africa,B,2.0,vgood,Private,poor,Close
+M,1.0,Biology,Africa,C,2.0,vgood,Private,good,Very close
+F,1.0,Business,Africa,B,2.0,vgood,Private,vgood,Fair
+F,1.0,Business,Africa,B,2.0,vgood,Private,poor,Close
+M,1.0,Science,Africa,B,2.0,vgood,Private,poor,Distant
+F,2.0,Arts,Africa,B,2.0,vgood,Private,poor,Very close
+M,1.0,Business,Africa,B,2.0,vgood,Private,poor,Very close
+M,1.0,Engineering,Africa,B,2.0,vgood,Non private,poor,Close
+M,2.0,Arts,Africa,B,2.0,poor,Non private,poor,Close
+M,2.0,Business,Africa,B,2.0,vgood,Private,poor,Very close
+M,2.0,Biology,Africa,C,2.0,vgood,Private,poor,Close
+F,1.0,Science,Africa,B,2.0,vgood,Private,poor,Very close
+M,2.0,Business,Africa,B,2.0,good,Private,vgood,Close
+M,2.0,Business,Africa,A,2.0,vgood,Non private,poor,Very close
+F,2.0,Education,Africa,B,2.0,vgood,Private,good,Close
+F,2.0,Business,Africa,B,2.0,vgood,Private,poor,Fair
+M,2.0,Business,Africa,B,2.0,good,Private,good,Very close
+M,2.0,Engineering,Africa,B,2.0,poor,Non private,poor,Very close
+F,2.0,Business,Africa,B,2.0,good,Private,good,Very close
+M,1.0,Business,Africa,B,2.0,vgood,Private,poor,Close
+F,1.0,Arts,Africa,B,2.0,poor,Private,good,Very close
+M,1.0,Science,Africa,B,2.0,vgood,Non private,good,Very close
+M,2.0,Business,Africa,B,2.0,good,Private,good,Very close
+F,1.0,Business,Africa,B,2.0,vgood,Private,poor,Very close
+M,1.0,Science,Africa,C,2.0,vgood,Private,vgood,Very close
+M,2.0,Business,Africa,B,2.0,vgood,Private,poor,Close
+F,1.0,Business,Africa,B,2.0,vgood,Non private,poor,Close
+F,1.0,Business,Africa,B,2.0,vgood,Non private,vgood,Very close
+F,1.0,Biology,Africa,B,2.0,vgood,Private,poor,Close
+F,2.0,Business,Africa,B,2.0,poor,Private,good,Very close
+F,2.0,Business,Africa,B,2.0,poor,Private,good,Very close
+F,2.0,Business,Africa,B,2.0,vgood,Private,good,Very close
+F,2.0,Business,Africa,B,2.0,vgood,Private,vgood,Very close
+M,4.0,Biology,Africa,C,2.0,good,Private,vgood,Very close
+M,4.0,Business,Africa,B,2.0,vgood,Private,good,Very close
+F,2.0,Arts,Africa,B,2.0,good,Private,good,Close
+M,3.0,Biology,Africa,B,2.0,good,Private,poor,Close
+F,2.0,Business,Africa,A,2.0,vgood,Private,poor,Fair
+F,3.0,Science,Africa,A,2.0,good,Private,vgood,Very close
+F,3.0,Arts,Africa,B,2.0,vgood,Private,poor,Close
+M,3.0,Business,Africa,B,2.0,vgood,Private,vgood,Very close
+M,2.0,Biology,Africa,B,2.0,poor,Non private,poor,Close
+F,1.0,Business,Africa,A,2.0,vgood,Non private,poor,Close
+M,2.0,Business,Africa,B,2.0,vgood,Non private,poor,Close
+F,2.0,Business,Africa,A,2.0,vgood,Private,poor,Very close
+M,4.0,Business,Africa,B,2.0,vgood,Private,good,Very close
+M,2.0,Business,Africa,C,2.0,good,Private,vgood,Very close
+F,2.0,Business,Africa,B,2.0,vgood,Private,vgood,Very close
+F,2.0,Arts,Africa,B,2.0,vgood,Private,vgood,Close
+M,2.0,Business,Africa,B,2.0,vgood,Non private,poor,Very close
+F,2.0,Arts,Africa,B,2.0,poor,Private,vgood,Very close
+M,2.0,Business,Africa,B,2.0,vgood,Private,poor,Very close
+F,2.0,Science,Africa,B,2.0,vgood,Private,poor,Very close
+M,1.0,Business,Africa,C,2.0,vgood,Private,poor,Close
+F,3.0,Biology,Africa,B,2.0,vgood,Private,poor,Close
+F,1.0,Education,Africa,B,2.0,vgood,Private,vgood,Very close
+F,2.0,Science,Africa,B,2.0,vgood,Private,poor,Very close
+F,2.0,Business,Africa,B,2.0,vgood,Private,vgood,Very close
+F,3.0,Business,Africa,B,2.0,vgood,Private,vgood,Very close
+F,1.0,Arts,Africa,B,2.0,vgood,Private,poor,Close
+F,2.0,Arts,Africa,C,2.0,vgood,Private,poor,Fair
+F,2.0,Science,Africa,B,2.0,vgood,Private,poor,Fair
+M,1.0,Biology,Africa,B,2.0,good,Private,good,Very close
+M,1.0,Business,Africa,B,2.0,good,Non private,poor,Fair
+M,3.0,Science,Africa,B,2.0,vgood,Private,good,Fair
+M,1.0,Science,Africa,B,2.0,good,Private,poor,Very close
+F,3.0,Business,Africa,B,2.0,vgood,Private,good,Very close
+F,1.0,Business,Africa,C,2.0,vgood,Private,good,Very close
+F,1.0,Science,Africa,C,2.0,vgood,Private,good,Very close
+F,2.0,Arts,Africa,B,2.0,vgood,Private,poor,Very close
+M,2.0,Science,Africa,B,2.0,vgood,Private,vgood,Close
+M,2.0,Business,Africa,B,2.0,vgood,Private,poor,Very close
+F,1.0,Biology,Africa,B,2.0,vgood,Private,poor,Very close
+M,4.0,Business,Africa,A,2.0,vgood,Private,good,Very close
+M,1.0,Business,Africa,B,2.0,poor,Private,vgood,Very close
+F,1.0,Science,Africa,B,2.0,vgood,Private,vgood,Very close
+M,2.0,Business,Africa,B,2.0,vgood,Non private,poor,Very close
+M,1.0,Business,Africa,B,2.0,vgood,Non private,vgood,Close
+M,1.0,Business,Africa,C,2.0,good,Private,good,Close
+M,1.0,Business,Africa,C,2.0,vgood,Non private,good,Very close
+F,1.0,Business,Africa,C,2.0,vgood,Private,vgood,Very close
+F,1.0,Business,Africa,C,2.0,vgood,Private,poor,Close
+M,1.0,Business,Africa,B,2.0,vgood,Private,poor,Very close
+F,1.0,Business,Africa,B,2.0,vgood,Private,poor,Fair
+F,1.0,Business,Africa,B,2.0,vgood,Private,vgood,Very close
+F,1.0,Business,Africa,B,2.0,vgood,Private,vgood,Very close
+M,3.0,Business,Africa,B,2.0,good,Private,good,Very close
+F,1.0,Business,Africa,B,2.0,vgood,Non private,vgood,Close
+F,1.0,Business,Africa,C,2.0,vgood,Private,good,Very close
+F,2.0,Business,Africa,C,2.0,vgood,Non private,poor,Very close
+F,2.0,Arts,Africa,C,2.0,vgood,Private,poor,Close
+M,3.0,Science,Africa,B,2.0,vgood,Non private,good,Close
+F,2.0,Business,Africa,B,2.0,vgood,Private,good,Fair
+M,2.0,Business,Africa,B,2.0,vgood,Private,good,Very close
+M,1.0,Business,Africa,B,2.0,good,Private,poor,Very close
+F,2.0,Arts,Africa,C,2.0,vgood,Private,poor,Close
+M,3.0,Business,Africa,A,2.0,good,Non private,poor,Very close
+M,2.0,Business,Africa,B,2.0,vgood,Private,poor,Close
+F,2.0,Business,Africa,B,2.0,poor,Private,good,Very close
+M,2.0,Engineering,Africa,B,2.0,vgood,Non private,poor,Fair
+F,1.0,Business,Africa,C,2.0,good,Private,poor,Close
+M,1.0,Arts,Africa,B,2.0,vgood,Private,vgood,Very close
+F,2.0,Business,Africa,B,2.0,vgood,Private,poor,Very close
+F,2.0,Business,Africa,B,2.0,vgood,Private,good,Close
+F,2.0,Arts,Africa,B,2.0,vgood,Private,good,Very close
+M,3.0,Business,Africa,B,2.0,vgood,Private,good,Close
+F,3.0,Education,Africa,B,2.0,vgood,Private,vgood,Very close
+F,3.0,Business,Africa,C,2.0,vgood,Private,poor,Very close
+M,2.0,Business,Africa,B,2.0,good,Private,poor,Very close
+M,2.0,Business,Africa,C,2.0,vgood,Private,good,Very close
+F,1.0,Business,Africa,C,2.0,vgood,Private,poor,Very close
+M,1.0,Business,Africa,B,2.0,good,Private,vgood,Very close
+M,1.0,Science,Africa,B,2.0,vgood,Non private,good,Very close
+M,3.0,Business,Africa,C,2.0,poor,Private,poor,Very close
+M,3.0,Business,Africa,B,2.0,vgood,Non private,good,Close
+M,4.0,Business,Africa,B,2.0,vgood,Non private,poor,Close
+F,1.0,Business,Africa,C,2.0,vgood,Private,poor,Very close
+F,2.0,Business,Africa,B,2.0,vgood,Private,vgood,Very close
+F,2.0,Engineering,Africa,A,2.0,vgood,Private,vgood,Very close
+F,1.0,Business,Africa,B,2.0,vgood,Private,poor,Close
+F,4.0,Business,Africa,B,2.0,vgood,Private,good,Very close
+F,2.0,Science,Africa,B,2.0,vgood,Private,poor,Very close
+M,1.0,Science,Africa,B,2.0,poor,Non private,vgood,Very close
+M,1.0,Science,Africa,B,2.0,good,Private,vgood,Very close
+F,2.0,Arts,Africa,B,2.0,vgood,Private,poor,Very close
+M,2.0,Business,Africa,B,2.0,vgood,Private,poor,Close
+F,1.0,Biology,Africa,B,2.0,good,Private,good,Close
+M,1.0,Business,Africa,B,2.0,vgood,Private,poor,Very close
+M,1.0,Business,Africa,C,2.0,poor,Non private,poor,Very close
+M,1.0,Science,Africa,B,2.0,poor,Private,vgood,Very close
+M,1.0,Business,Africa,B,2.0,good,Private,good,Close
+F,1.0,Business,Africa,B,2.0,vgood,Private,vgood,Fair
+M,1.0,Business,Africa,B,2.0,good,Private,vgood,Fair
+M,1.0,Engineering,Africa,A,2.0,good,Non private,poor,Very close
+M,1.0,Business,Africa,C,2.0,vgood,Private,poor,Very close
+M,1.0,Science,Africa,B,2.0,vgood,Private,good,Very close
+M,1.0,Business,Africa,B,2.0,poor,Private,good,Close
+M,2.0,Business,Africa,B,2.0,good,Private,vgood,Very close
+F,2.0,Science,Africa,B,2.0,vgood,Private,vgood,Very close
+M,1.0,Science,Africa,B,2.0,vgood,Private,good,Close
+M,1.0,Business,Africa,A,2.0,vgood,Non private,poor,Very close
+F,2.0,Arts,Africa,C,2.0,vgood,Private,poor,Fair
+M,1.0,Business,Africa,B,2.0,poor,Non private,good,Close
+M,3.0,Law,Africa,B,2.0,vgood,Private,vgood,Close
+M,2.0,Business,Africa,B,2.0,good,Private,vgood,Close
+F,1.0,Education,Africa,C,2.0,good,Private,poor,Very close
+F,1.0,Biology,Africa,B,2.0,vgood,Private,poor,Very close
+F,2.0,Arts,Africa,B,2.0,vgood,Private,vgood,Very close
+F,1.0,Business,Africa,B,2.0,vgood,Private,vgood,Very close
+F,2.0,Science,Africa,A,2.0,vgood,Private,good,Very close
+F,1.0,Business,Africa,B,2.0,vgood,Private,good,Very close
+M,2.0,Business,Africa,B,2.0,vgood,Private,poor,Very close
+F,2.0,Business,Africa,A,2.0,vgood,Non private,poor,Very close
+F,1.0,Engineering,Africa,B,2.0,good,Private,vgood,Very close
+F,2.0,Business,Africa,B,2.0,good,Private,good,Close
+F,2.0,Business,Africa,B,2.0,vgood,Private,good,Close
+M,2.0,Science,Africa,B,2.0,vgood,Private,poor,Close
+M,1.0,Business,Africa,C,2.0,poor,Private,poor,Very close
+F,1.0,Business,Africa,B,2.0,vgood,Private,poor,Very close
+M,1.0,Business,Africa,B,2.0,vgood,Private,vgood,Fair
+M,1.0,Arts,Africa,B,2.0,vgood,Private,vgood,Very close
+M,1.0,Business,Africa,B,2.0,good,Private,poor,Very close
+M,1.0,Engineering,Africa,B,2.0,vgood,Private,good,Very close
+F,1.0,Business,Africa,B,2.0,vgood,Private,vgood,Very close
+M,2.0,Business,Africa,C,2.0,vgood,Private,good,Very close
+F,2.0,Business,Africa,B,2.0,good,Private,poor,Fair
+F,1.0,Business,Africa,B,2.0,vgood,Private,good,Very close
+F,2.0,Business,Africa,A,2.0,vgood,Private,vgood,Very close
+M,2.0,Medicine,Africa,B,2.0,vgood,Private,poor,Close
+M,2.0,Business,Africa,B,2.0,good,Non private,poor,Close
+M,1.0,Business,Africa,B,2.0,vgood,Private,vgood,Fair
+F,2.0,Arts,Africa,B,2.0,good,Private,vgood,Very close
+M,2.0,Business,Africa,B,2.0,good,Non private,poor,Very close
+F,2.0,Business,Africa,B,2.0,vgood,Private,vgood,Close
+M,3.0,Biology,Africa,C,2.0,vgood,Private,good,Very close
+M,1.0,Science,Africa,B,2.0,good,Private,poor,Very close
+F,3.0,Business,Africa,A,2.0,vgood,Private,good,Very close
+M,3.0,Engineering,Africa,B,2.0,vgood,Private,good,Close
+M,3.0,Law,Africa,B,2.0,good,Private,vgood,Close
+F,3.0,Engineering,Africa,B,2.0,vgood,Private,good,Very close
+M,2.0,Science,Africa,B,2.0,good,Non private,poor,Very close
+M,2.0,Business,Africa,B,2.0,good,Private,vgood,Close
+F,3.0,Science,Africa,B,2.0,vgood,Private,good,Very close
+F,1.0,Engineering,Africa,B,2.0,vgood,Private,poor,Very close
+M,2.0,Business,Africa,B,2.0,vgood,Non private,poor,Fair
+M,1.0,Arts,Africa,C,2.0,good,Private,vgood,Close
+F,2.0,Business,Africa,C,2.0,vgood,Private,poor,Fair
+M,2.0,Law,Africa,B,2.0,vgood,Non private,poor,Fair
+M,1.0,Biology,Africa,C,2.0,poor,Private,poor,Very close
+F,2.0,Business,Africa,C,2.0,vgood,Private,good,Very close
+M,3.0,Business,Africa,B,2.0,vgood,Private,poor,Very close
+M,1.0,Business,Africa,B,2.0,good,Private,poor,Very close
+M,1.0,Business,Africa,C,2.0,vgood,Private,good,Very close
+F,2.0,Engineering,Africa,B,2.0,vgood,Private,good,Close
+M,1.0,Business,Africa,C,2.0,vgood,Private,poor,Very close
+F,2.0,Medicine,Africa,B,2.0,good,Private,good,Very close
+M,2.0,Business,Africa,B,2.0,vgood,Private,good,Fair
+M,2.0,Business,Africa,B,2.0,good,Private,vgood,Close
+M,2.0,Business,Africa,B,2.0,vgood,Private,good,Close
+M,2.0,Business,Africa,B,2.0,vgood,Non private,poor,Very close
+M,3.0,Business,Africa,B,2.0,vgood,Private,poor,Fair
+M,1.0,Business,Africa,B,2.0,vgood,Private,poor,Very close
+M,3.0,Engineering,Africa,B,2.0,vgood,Private,poor,Close
+F,2.0,Business,Africa,A,2.0,vgood,Non private,poor,Fair
+M,1.0,Business,Africa,B,2.0,vgood,Private,poor,Very close
+M,2.0,Arts,Africa,C,2.0,vgood,Private,poor,Fair
+M,2.0,Science,Africa,B,2.0,vgood,Private,good,Close
+F,3.0,Law,Africa,B,2.0,vgood,Private,vgood,Fair
+M,1.0,Science,Africa,B,2.0,vgood,Private,good,Very close
+M,1.0,Science,Africa,B,2.0,vgood,Private,poor,Very close
+F,1.0,Arts,Africa,B,2.0,vgood,Private,good,Very close
+M,1.0,Arts,Africa,B,2.0,vgood,Private,poor,Very close
+F,2.0,Business,Africa,C,2.0,vgood,Private,poor,Close
+M,2.0,Business,Africa,B,2.0,good,Private,good,Very close
+F,1.0,Medicine,Africa,B,2.0,good,Private,poor,Very close
+M,1.0,Business,Africa,B,2.0,vgood,Private,vgood,Very close
+M,2.0,Business,Africa,C,2.0,good,Private,vgood,Very close
+F,1.0,Arts,Africa,B,2.0,vgood,Private,poor,Very close
+F,2.0,Medicine,Africa,B,2.0,vgood,Private,vgood,Very close
+M,2.0,Business,Africa,B,2.0,vgood,Private,poor,Very close
+M,2.0,Business,Africa,B,2.0,vgood,Private,poor,Very close
+F,1.0,Business,Africa,B,2.0,good,Private,vgood,Close
+F,1.0,Science,Africa,B,2.0,vgood,Private,poor,Very close
+M,3.0,Law,Africa,B,2.0,vgood,Private,poor,Close
+M,1.0,Business,Africa,C,2.0,vgood,Private,vgood,Very close
+M,1.0,Science,Africa,B,2.0,vgood,Private,good,Close
+M,2.0,Business,Africa,B,2.0,poor,Private,vgood,Very close
+F,2.0,Medicine,Africa,B,2.0,vgood,Private,poor,Very close
+M,1.0,Business,Africa,B,2.0,good,Private,poor,Fair
+F,2.0,Business,Africa,B,2.0,vgood,Private,vgood,Close
+F,2.0,Business,Africa,B,2.0,vgood,Private,vgood,Very close
+M,2.0,Engineering,Iraq,B,3.0,vgood,Private,good,Very close
+M,3.0,Engineering,Iraq,B,0.0,vgood,Private,vgood,Very close
+M,2.0,Engineering,Iraq,B,0.0,good,Private,good,Close
+M,3.0,Engineering,Iraq,B,1.0,good,Private,vgood,Very close
+M,2.0,Engineering,Iraq,C,1.0,good,Private,vgood,Very close
+M,2.0,Engineering,Iraq,C,1.0,vgood,Private,good,Very close
+M,2.0,Engineering,Iraq,B,2.0,good,Private,good,Very close
+M,2.0,Engineering,Iraq,B,3.0,vgood,Private,good,Fair
+M,2.0,Engineering,Iraq,C,2.0,good,Non private,good,Very close
+M,2.0,Engineering,Iraq,B,2.0,vgood,Private,good,Close
+M,3.0,Engineering,Iraq,C,1.0,vgood,Private,good,Very close
+M,2.0,Engineering,Iraq,C,1.0,vgood,Private,good,Very close
+M,2.0,Engineering,Iraq,C,1.0,good,Non private,good,Very close
+M,2.0,Engineering,Iraq,C,2.0,vgood,Non private,good,Close
+M,2.0,Engineering,Iraq,C,3.0,vgood,Private,good,Fair
+M,3.0,Engineering,Iraq,C,1.0,good,Non private,poor,Close
+M,2.0,Engineering,Iraq,B,3.0,vgood,Private,good,Very close
+M,2.0,Engineering,Iraq,B,1.0,poor,Private,good,Close
+M,2.0,Engineering,Iraq,B,1.0,good,Private,vgood,Very close
+M,3.0,Biology,Iraq,B,2.0,vgood,Private,good,Close
+M,2.0,Biology,Iraq,B,1.0,vgood,Non private,good,Close
+M,3.0,Biology,Iraq,B,0.0,good,Non private,good,Very close
+M,2.0,Biology,Iraq,B,1.0,good,Private,vgood,Close
+M,3.0,Biology,Iraq,B,1.0,vgood,Private,poor,Very close
+M,2.0,Biology,Iraq,B,1.0,vgood,Private,good,Very close
+M,2.0,Biology,Iraq,B,2.0,good,Private,vgood,Close
+M,1.0,Biology,Iraq,B,3.0,vgood,Private,vgood,Very close
+M,2.0,Biology,Iraq,B,1.0,vgood,Private,good,Close
+M,2.0,Biology,Iraq,B,1.0,good,Private,vgood,Very close
+M,3.0,Biology,Iraq,B,2.0,good,Non private,good,Close
+M,2.0,Biology,Iraq,B,1.0,vgood,Non private,good,Close
+M,2.0,Biology,Iraq,B,2.0,vgood,Private,good,Very close
+M,3.0,Biology,Iraq,B,3.0,vgood,Private,vgood,Very close
+M,3.0,Biology,Iraq,B,2.0,vgood,Private,vgood,Very close
+M,2.0,Biology,Iraq,B,1.0,good,Private,vgood,Very close
+M,2.0,Biology,Iraq,B,1.0,good,Private,vgood,Very close
+F,2.0,Biology,Iraq,B,2.0,good,Private,vgood,Very close
+F,1.0,Biology,Iraq,A,3.0,good,Private,good,Very close
+F,2.0,Engineering,Iraq,B,3.0,vgood,Non private,vgood,Very close
+F,4.0,Engineering,Iraq,C,1.0,good,Non private,good,Very close
+F,2.0,Engineering,Iraq,B,1.0,poor,Private,good,Close
+F,2.0,Engineering,Iraq,B,2.0,good,Non private,good,Very close
+F,1.0,Engineering,Iraq,B,3.0,vgood,Private,good,Close
+F,3.0,Engineering,Iraq,C,2.0,vgood,Private,good,Close
+F,2.0,Engineering,Iraq,B,3.0,vgood,Private,good,Close
+F,2.0,Engineering,Iraq,B,3.0,vgood,Private,vgood,Very close
+F,2.0,Engineering,Iraq,B,2.0,good,Private,good,Close
+F,2.0,Engineering,Iraq,B,3.0,vgood,Private,good,Very close
+F,2.0,Engineering,Iraq,B,3.0,vgood,Private,good,Very close
+F,1.0,Engineering,Iraq,B,2.0,vgood,Private,good,Close
+F,2.0,Engineering,Iraq,B,2.0,vgood,Private,good,Very close
+F,2.0,Engineering,Iraq,B,3.0,good,Private,vgood,Very close
+F,3.0,Engineering,Iraq,B,2.0,vgood,Non private,good,Close
+F,2.0,Engineering,Iraq,B,1.0,vgood,Private,good,Close
+F,2.0,Engineering,Iraq,B,2.0,vgood,Private,vgood,Very close
+F,2.0,Engineering,Iraq,B,1.0,good,Non private,vgood,Very close
+F,2.0,Engineering,Iraq,A,2.0,vgood,Private,good,Very close
+F,3.0,Engineering,Iraq,B,2.0,vgood,Private,good,Very close
+F,2.0,Engineering,Iraq,B,2.0,vgood,Private,vgood,Very close
+F,2.0,Engineering,Iraq,B,3.0,vgood,Non private,good,Very close
+F,2.0,Engineering,Iraq,B,2.0,good,Private,good,Close
+F,2.0,Engineering,Iraq,B,2.0,good,Private,vgood,Very close
+F,2.0,Engineering,Iraq,B,2.0,vgood,Non private,good,Close
+F,2.0,Engineering,Iraq,B,3.0,vgood,Non private,good,Close
+F,3.0,Engineering,Iraq,B,1.0,vgood,Private,vgood,Very close
+F,3.0,Engineering,Iraq,B,0.0,vgood,Private,good,Close
+F,2.0,Engineering,Iraq,B,2.0,vgood,Non private,good,Close
+F,2.0,Engineering,Iraq,B,2.0,good,Private,good,Close
+F,2.0,Engineering,Iraq,C,3.0,good,Private,good,Very close
+F,2.0,Engineering,Iraq,B,3.0,good,Non private,good,Very close
+F,2.0,Engineering,Iraq,B,1.0,vgood,Private,good,Very close
+F,2.0,Engineering,Iraq,B,0.0,vgood,Private,good,Very close
+F,2.0,Engineering,Iraq,B,3.0,vgood,Private,vgood,Very close
+F,2.0,Engineering,Iraq,B,3.0,vgood,Private,vgood,Very close
+F,2.0,Biology,Iraq,B,3.0,good,Private,good,Very close
+F,2.0,Biology,Iraq,B,3.0,good,Private,good,Very close
+F,2.0,Biology,Iraq,C,3.0,good,Private,good,Very close
+F,2.0,Biology,Iraq,B,1.0,vgood,Private,good,Very close
+F,4.0,Biology,Iraq,B,2.0,good,Private,vgood,Very close
+F,2.0,Biology,Iraq,B,1.0,vgood,Non private,good,Close
+F,3.0,Biology,Iraq,B,0.0,vgood,Private,good,Close
+F,2.0,Biology,Iraq,B,2.0,good,Private,vgood,Very close
+F,2.0,Biology,Iraq,B,3.0,vgood,Private,vgood,Very close
+F,2.0,Biology,Iraq,A,3.0,good,Private,good,Close
+F,2.0,Biology,Iraq,B,3.0,vgood,Non private,good,Very close
+F,1.0,Biology,Iraq,A,0.0,poor,Private,poor,Close
+F,2.0,Biology,Iraq,B,3.0,poor,Private,good,Close
+F,3.0,Biology,Iraq,B,1.0,good,Non private,good,Very close
+F,2.0,Biology,Iraq,B,2.0,vgood,Non private,good,Close
+F,2.0,Biology,Iraq,A,3.0,good,Private,good,Very close
+F,2.0,Biology,Iraq,B,3.0,vgood,Private,good,Very close
+F,2.0,Engineering,Iraq,B,3.0,vgood,Private,vgood,Very close
+F,2.0,Biology,Iraq,A,3.0,vgood,Private,good,Close
+F,2.0,Biology,Iraq,A,3.0,vgood,Private,good,Close
+F,2.0,Biology,Iraq,B,2.0,good,Private,good,Close
+F,2.0,Biology,Iraq,A,3.0,vgood,Private,good,Very close
+F,2.0,Biology,Iraq,B,3.0,vgood,Non private,good,Very close
+F,2.0,Biology,Iraq,B,2.0,good,Private,vgood,Very close
+F,2.0,Biology,Iraq,B,2.0,good,Non private,good,Very close
+F,2.0,Biology,Iraq,B,2.0,poor,Non private,good,Very close
+F,2.0,Biology,Iraq,B,2.0,poor,Private,good,Very close
+F,2.0,Biology,Iraq,A,3.0,vgood,Non private,vgood,Very close
+F,2.0,Biology,Iraq,A,3.0,vgood,Private,good,Very close
+F,2.0,Biology,Iraq,B,3.0,good,Private,good,Close
+F,3.0,Biology,Iraq,B,3.0,good,Private,good,Very close
+F,2.0,Biology,Iraq,B,2.0,vgood,Non private,good,Close
+F,3.0,Biology,Iraq,B,3.0,good,Non private,good,Close
+F,2.0,Biology,Iraq,B,2.0,good,Private,good,Very close
+F,2.0,Biology,Iraq,B,3.0,good,Private,good,Very close
+F,2.0,Biology,Iraq,B,3.0,vgood,Non private,good,Very close
+F,2.0,Biology,Iraq,A,2.0,vgood,Private,vgood,Close
+F,2.0,Biology,Iraq,A,3.0,vgood,Private,good,Very close
+F,2.0,Biology,Iraq,B,2.0,good,Private,vgood,Very close
+F,2.0,Biology,Iraq,B,0.0,good,Private,good,Very close
+F,1.0,Biology,Iraq,C,2.0,vgood,Non private,good,Very close
+F,2.0,Biology,Iraq,A,3.0,good,Private,good,Very close
+F,3.0,Biology,Iraq,B,3.0,vgood,Private,good,Very close
+F,2.0,Biology,Iraq,B,3.0,good,Non private,good,Very close
+F,4.0,Biology,Iraq,B,2.0,good,Non private,good,Very close
+F,2.0,Biology,Iraq,A,1.0,vgood,Private,good,Very close
+F,4.0,Engineering,Portugal,C,2.0,good,Non private,poor,Very close
+F,3.0,Engineering,Portugal,C,2.0,vgood,Private,good,Very close
+F,1.0,Engineering,Portugal,B,2.0,good,Private,good,Very close
+F,1.0,Engineering,Portugal,B,3.0,vgood,Private,good,Close
+F,2.0,Engineering,Portugal,B,2.0,vgood,Private,poor,Very close
+M,2.0,Engineering,Portugal,B,2.0,good,Private,good,Very close
+M,2.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+F,3.0,Engineering,Portugal,B,2.0,vgood,Non private,poor,Very close
+M,1.0,Engineering,Portugal,A,2.0,vgood,Non private,good,Very close
+M,1.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+F,1.0,Engineering,Portugal,B,2.0,vgood,Private,good,Close
+F,1.0,Engineering,Portugal,B,3.0,vgood,Private,good,Very close
+M,1.0,Engineering,Portugal,B,1.0,vgood,Private,good,Very close
+M,1.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+M,1.0,Engineering,Portugal,A,3.0,vgood,Non private,good,Very close
+F,2.0,Engineering,Portugal,A,1.0,good,Private,good,Very close
+F,2.0,Engineering,Portugal,B,3.0,poor,Private,good,Close
+F,2.0,Engineering,Portugal,B,2.0,vgood,Private,poor,Very close
+M,3.0,Engineering,Portugal,C,1.0,vgood,Private,good,Very close
+M,2.0,Engineering,Portugal,B,1.0,good,Private,good,Close
+M,1.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+M,1.0,Engineering,Portugal,B,1.0,vgood,Private,good,Very close
+M,2.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+M,2.0,Engineering,Portugal,C,2.0,vgood,Private,good,Very close
+F,1.0,Engineering,Portugal,C,3.0,vgood,Private,good,Very close
+F,2.0,Engineering,Portugal,B,1.0,good,Private,good,Fair
+M,1.0,Engineering,Portugal,B,1.0,good,Private,good,Very close
+M,1.0,Engineering,Portugal,C,1.0,vgood,Private,good,Close
+M,2.0,Engineering,Portugal,B,2.0,vgood,Non private,good,Very close
+M,2.0,Engineering,Portugal,B,2.0,good,Private,good,Very close
+M,1.0,Engineering,Portugal,C,2.0,vgood,Private,good,Very close
+M,1.0,Engineering,Portugal,A,2.0,vgood,Private,good,Very close
+M,1.0,Engineering,Portugal,A,2.0,vgood,Private,good,Very close
+M,1.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+M,2.0,Engineering,Portugal,B,1.0,good,Private,good,Very close
+F,1.0,Engineering,Portugal,C,1.0,good,Private,poor,Close
+M,1.0,Engineering,Portugal,B,3.0,vgood,Private,good,Very close
+M,2.0,Engineering,Portugal,B,3.0,good,Non private,good,Close
+F,1.0,Engineering,Portugal,B,3.0,vgood,Private,good,Very close
+F,1.0,Engineering,Portugal,B,1.0,good,Private,poor,Very close
+F,2.0,Engineering,Portugal,C,2.0,poor,Private,good,Close
+M,1.0,Engineering,Portugal,C,1.0,good,Private,good,Very close
+M,1.0,Engineering,Portugal,A,2.0,vgood,Private,good,Very close
+M,1.0,Engineering,Portugal,C,1.0,vgood,Private,good,Very close
+F,2.0,Engineering,Portugal,C,2.0,poor,Private,good,Very close
+F,1.0,Engineering,Portugal,C,2.0,good,Non private,good,Very close
+F,2.0,Engineering,Portugal,B,2.0,good,Non private,good,Close
+M,2.0,Engineering,Portugal,A,4.0,vgood,Private,good,Very close
+M,1.0,Engineering,Portugal,B,2.0,good,Private,poor,Very close
+F,1.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+F,2.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+F,1.0,Engineering,Portugal,A,2.0,vgood,Private,good,Very close
+M,1.0,Engineering,Portugal,C,1.0,good,Non private,poor,Very close
+F,1.0,Engineering,Portugal,B,1.0,vgood,Private,good,Close
+F,1.0,Engineering,Portugal,B,1.0,vgood,Non private,good,Very close
+F,2.0,Engineering,Portugal,B,2.0,vgood,Non private,good,Very close
+F,1.0,Engineering,Portugal,A,2.0,vgood,Non private,good,Very close
+M,1.0,Engineering,Portugal,A,2.0,good,Private,poor,Close
+M,1.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+F,2.0,Engineering,Portugal,A,2.0,vgood,Private,good,Very close
+F,2.0,Engineering,Portugal,A,2.0,vgood,Private,poor,Close
+F,2.0,Engineering,Portugal,A,1.0,vgood,Private,good,Very close
+F,2.0,Engineering,Portugal,C,2.0,vgood,Private,good,Very close
+F,2.0,Engineering,Portugal,B,3.0,vgood,Private,good,Close
+F,1.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+F,2.0,Engineering,Portugal,A,2.0,vgood,Private,good,Very close
+M,1.0,Engineering,Portugal,B,4.0,vgood,Non private,good,Fair
+F,2.0,Engineering,Portugal,C,4.0,vgood,Private,good,Very close
+F,1.0,Engineering,Portugal,C,2.0,vgood,Private,good,Very close
+F,1.0,Engineering,Portugal,A,4.0,good,Private,good,Very close
+M,2.0,Engineering,Portugal,C,4.0,vgood,Private,good,Very close
+M,1.0,Engineering,Portugal,C,4.0,vgood,Private,good,Close
+F,1.0,Engineering,Portugal,C,2.0,vgood,Private,good,Close
+M,2.0,Engineering,Portugal,B,1.0,vgood,Private,poor,Very close
+F,2.0,Engineering,Portugal,C,2.0,good,Private,good,Very close
+M,1.0,Engineering,Portugal,C,2.0,vgood,Private,good,Very close
+M,1.0,Engineering,Portugal,C,4.0,vgood,Private,good,Close
+F,2.0,Engineering,Portugal,B,4.0,vgood,Private,good,Very close
+M,3.0,Engineering,Portugal,C,1.0,vgood,Private,good,Very close
+F,2.0,Engineering,Portugal,C,2.0,poor,Private,good,Close
+M,1.0,Engineering,Portugal,B,1.0,vgood,Private,good,Close
+M,1.0,Engineering,Portugal,C,3.0,vgood,Private,good,Very close
+F,1.0,Engineering,Portugal,C,2.0,good,Private,good,Very close
+M,1.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+F,1.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+F,1.0,Engineering,Portugal,B,2.0,good,Private,good,Very close
+F,2.0,Engineering,Portugal,C,2.0,good,Private,poor,Very close
+F,1.0,Engineering,Portugal,A,3.0,good,Private,good,Very close
+M,2.0,Engineering,Portugal,C,2.0,good,Private,good,Very close
+M,2.0,Engineering,Portugal,C,2.0,good,Non private,poor,Very close
+F,2.0,Engineering,Portugal,C,3.0,vgood,Private,good,Very close
+F,1.0,Engineering,Portugal,B,1.0,good,Private,good,Very close
+F,2.0,Engineering,Portugal,B,2.0,vgood,Private,poor,Close
+F,2.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+M,1.0,Engineering,Portugal,B,4.0,vgood,Private,good,Very close
+F,1.0,Engineering,Portugal,B,4.0,good,Private,good,Close
+M,2.0,Engineering,Portugal,C,1.0,good,Private,good,Close
+F,2.0,Engineering,Portugal,B,2.0,vgood,Private,poor,Very close
+F,2.0,Engineering,Portugal,B,1.0,good,Private,good,Very close
+F,2.0,Engineering,Portugal,B,3.0,vgood,Private,good,Very close
+M,2.0,Engineering,Portugal,C,1.0,poor,Private,good,Very close
+M,2.0,Engineering,Portugal,A,3.0,vgood,Private,good,Very close
+M,1.0,Engineering,Portugal,B,1.0,vgood,Private,good,Very close
+F,1.0,Engineering,Portugal,C,2.0,poor,Private,good,Very close
+M,1.0,Engineering,Portugal,A,2.0,vgood,Non private,good,Very close
+F,1.0,Engineering,Portugal,C,4.0,poor,Non private,poor,Very close
+F,1.0,Engineering,Portugal,C,4.0,good,Private,good,Very close
+M,2.0,Engineering,Portugal,B,3.0,good,Private,good,Very close
+M,1.0,Engineering,Portugal,C,4.0,good,Private,good,Fair
+F,2.0,Engineering,Portugal,B,3.0,vgood,Private,good,Very close
+M,1.0,Engineering,Portugal,B,1.0,good,Non private,good,Very close
+F,2.0,Engineering,Portugal,C,3.0,good,Private,good,Very close
+F,2.0,Engineering,Portugal,C,2.0,poor,Private,good,Close
+M,1.0,Engineering,Portugal,A,1.0,poor,Private,good,Close
+M,1.0,Engineering,Portugal,C,2.0,good,Private,good,Very close
+M,2.0,Engineering,Portugal,B,2.0,good,Private,good,Very close
+M,1.0,Engineering,Portugal,A,2.0,good,Private,poor,Very close
+M,2.0,Engineering,Portugal,A,1.0,good,Private,good,Very close
+M,3.0,Engineering,Portugal,C,2.0,poor,Private,good,Very close
+M,1.0,Engineering,Portugal,B,1.0,vgood,Private,good,Close
+F,1.0,Engineering,Portugal,B,2.0,vgood,Private,good,Close
+M,1.0,Engineering,Portugal,B,4.0,good,Private,good,Very close
+F,2.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+M,2.0,Engineering,Portugal,B,1.0,good,Private,good,Close
+F,2.0,Engineering,Portugal,C,2.0,vgood,Private,good,Very close
+M,1.0,Engineering,Portugal,C,1.0,vgood,Private,good,Very close
+F,1.0,Engineering,Portugal,C,2.0,vgood,Non private,good,Very close
+M,2.0,Engineering,Portugal,A,1.0,good,Private,good,Close
+M,2.0,Engineering,Portugal,B,3.0,good,Private,good,Close
+F,1.0,Engineering,Portugal,B,3.0,vgood,Private,good,Very close
+F,4.0,Engineering,Portugal,C,2.0,poor,Private,good,Very close
+F,3.0,Engineering,Portugal,C,1.0,good,Non private,good,Close
+F,1.0,Engineering,Portugal,B,1.0,good,Private,good,Very close
+F,3.0,Engineering,Portugal,B,1.0,vgood,Private,good,Close
+F,2.0,Engineering,Portugal,B,1.0,poor,Non private,good,Close
+M,2.0,Engineering,Portugal,C,1.0,good,Private,poor,Close
+F,2.0,Engineering,Portugal,C,1.0,poor,Non private,poor,Very close
+M,1.0,Engineering,Portugal,C,2.0,vgood,Private,poor,Very close
+F,1.0,Engineering,Portugal,A,3.0,good,Private,good,Very close
+M,3.0,Engineering,Portugal,C,2.0,vgood,Private,poor,Very close
+F,2.0,Engineering,Portugal,B,2.0,vgood,Private,poor,Very close
+M,4.0,Engineering,Portugal,B,1.0,vgood,Private,good,Close
+F,4.0,Engineering,Portugal,C,3.0,poor,Non private,good,Very close
+F,2.0,Engineering,Portugal,C,1.0,good,Private,poor,Close
+F,2.0,Engineering,Portugal,C,1.0,good,Non private,good,Very close
+M,2.0,Engineering,Portugal,C,2.0,vgood,Private,poor,Very close
+F,1.0,Engineering,Portugal,B,1.0,good,Private,good,Very close
+F,1.0,Engineering,Portugal,C,1.0,vgood,Private,good,Very close
+M,1.0,Engineering,Portugal,C,4.0,good,Private,good,Close
+F,1.0,Engineering,Portugal,C,2.0,poor,Non private,poor,Fair
+M,2.0,Engineering,Portugal,B,3.0,vgood,Private,good,Very close
+M,2.0,Engineering,Portugal,C,1.0,good,Private,good,Close
+F,1.0,Engineering,Portugal,B,3.0,vgood,Private,good,Very close
+F,2.0,Engineering,Portugal,C,1.0,good,Private,good,Close
+M,3.0,Engineering,Portugal,C,1.0,poor,Private,good,Very close
+F,1.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+F,1.0,Engineering,Portugal,C,1.0,vgood,Non private,good,Very close
+F,1.0,Engineering,Portugal,C,2.0,vgood,Private,good,Close
+F,1.0,Engineering,Portugal,B,2.0,good,Private,good,Very close
+F,1.0,Engineering,Portugal,C,2.0,good,Private,poor,Close
+M,2.0,Engineering,Portugal,C,1.0,poor,Private,good,Close
+M,1.0,Engineering,Portugal,C,1.0,vgood,Non private,good,Very close
+M,4.0,Engineering,Portugal,C,1.0,vgood,Private,good,Close
+M,2.0,Engineering,Portugal,C,1.0,good,Private,poor,Very close
+F,1.0,Engineering,Portugal,B,3.0,vgood,Private,good,Very close
+F,3.0,Engineering,Portugal,B,1.0,vgood,Private,poor,Very close
+M,1.0,Engineering,Portugal,C,2.0,vgood,Private,poor,Very close
+M,3.0,Engineering,Portugal,C,1.0,poor,Private,poor,Close
+F,4.0,Engineering,Portugal,C,1.0,good,Private,poor,Very close
+M,2.0,Engineering,Portugal,C,1.0,good,Private,poor,Very close
+M,2.0,Engineering,Portugal,C,2.0,vgood,Private,good,Very close
+M,2.0,Engineering,Portugal,C,1.0,vgood,Private,good,Very close
+M,3.0,Engineering,Portugal,C,1.0,good,Private,good,Close
+M,3.0,Engineering,Portugal,C,2.0,good,Private,good,Very close
+M,1.0,Engineering,Portugal,C,1.0,vgood,Private,poor,Very close
+M,2.0,Engineering,Portugal,C,1.0,vgood,Private,good,Very close
+M,3.0,Engineering,Portugal,C,2.0,vgood,Private,poor,Very close
+M,3.0,Engineering,Portugal,C,1.0,poor,Private,poor,Very close
+M,2.0,Engineering,Portugal,C,2.0,vgood,Private,good,Very close
+F,2.0,Engineering,Portugal,A,2.0,vgood,Private,good,Very close
+F,2.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+F,2.0,Engineering,Portugal,A,2.0,vgood,Private,good,Very close
+M,2.0,Engineering,Portugal,C,1.0,good,Private,good,Close
+M,2.0,Engineering,Portugal,A,2.0,vgood,Private,good,Very close
+M,3.0,Engineering,Portugal,C,2.0,vgood,Private,good,Very close
+F,2.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+F,2.0,Engineering,Portugal,A,2.0,vgood,Private,good,Very close
+M,3.0,Engineering,Portugal,C,2.0,vgood,Private,good,Very close
+F,2.0,Engineering,Portugal,B,2.0,vgood,Private,good,Close
+M,3.0,Engineering,Portugal,C,2.0,good,Private,good,Very close
+M,2.0,Engineering,Portugal,C,1.0,good,Private,good,Very close
+M,3.0,Engineering,Portugal,B,2.0,good,Private,good,Very close
+M,2.0,Engineering,Portugal,C,2.0,good,Private,good,Close
+M,2.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+F,3.0,Engineering,Portugal,A,2.0,vgood,Private,poor,Very close
+F,3.0,Engineering,Portugal,B,2.0,poor,Private,good,Very close
+F,2.0,Engineering,Portugal,A,2.0,good,Private,good,Fair
+M,3.0,Engineering,Portugal,B,2.0,good,Private,good,Very close
+M,2.0,Engineering,Portugal,C,1.0,vgood,Private,good,Close
+M,2.0,Engineering,Portugal,A,2.0,vgood,Private,good,Very close
+F,3.0,Engineering,Portugal,B,2.0,poor,Non private,good,Close
+M,3.0,Engineering,Portugal,C,2.0,good,Private,poor,Close
+F,2.0,Engineering,Portugal,B,2.0,good,Private,good,Very close
+F,3.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+M,3.0,Engineering,Portugal,B,2.0,poor,Private,good,Very close
+M,2.0,Engineering,Portugal,C,1.0,vgood,Private,good,Very close
+M,2.0,Engineering,Portugal,B,1.0,vgood,Private,good,Very close
+F,3.0,Engineering,Portugal,A,2.0,good,Private,good,Very close
+M,3.0,Engineering,Portugal,B,1.0,good,Private,good,Very close
+M,2.0,Engineering,Portugal,B,1.0,poor,Private,good,Close
+F,3.0,Engineering,Portugal,A,1.0,poor,Private,good,Very close
+F,2.0,Engineering,Portugal,C,2.0,vgood,Private,good,Very close
+F,2.0,Engineering,Portugal,A,2.0,vgood,Private,good,Very close
+F,2.0,Engineering,Portugal,B,2.0,good,Private,poor,Very close
+F,3.0,Engineering,Portugal,A,2.0,vgood,Private,poor,Very close
+F,3.0,Engineering,Portugal,B,1.0,poor,Private,good,Very close
+F,2.0,Engineering,Portugal,B,4.0,good,Private,good,Very close
+F,3.0,Engineering,Portugal,C,3.0,poor,Private,good,Very close
+F,2.0,Engineering,Portugal,B,2.0,vgood,Non private,good,Close
+F,2.0,Engineering,Portugal,A,2.0,good,Private,good,Fair
+F,2.0,Engineering,Portugal,B,1.0,vgood,Private,poor,Very close
+F,3.0,Engineering,Portugal,B,3.0,vgood,Private,good,Very close
+M,3.0,Engineering,Portugal,B,2.0,poor,Private,good,Very close
+F,2.0,Engineering,Portugal,B,2.0,vgood,Non private,good,Close
+M,4.0,Engineering,Portugal,C,2.0,poor,Private,good,Very close
+F,3.0,Engineering,Portugal,C,1.0,good,Private,poor,Very close
+F,3.0,Engineering,Portugal,A,2.0,vgood,Private,good,Very close
+F,3.0,Engineering,Portugal,C,2.0,poor,Private,good,Close
+M,4.0,Engineering,Portugal,C,2.0,poor,Private,good,Close
+F,3.0,Engineering,Portugal,B,1.0,good,Private,poor,Close
+F,3.0,Engineering,Portugal,B,3.0,vgood,Private,good,Very close
+F,3.0,Engineering,Portugal,C,2.0,vgood,Private,good,Very close
+F,3.0,Engineering,Portugal,B,3.0,poor,Private,poor,Very close
+F,2.0,Engineering,Portugal,B,2.0,vgood,Private,good,Close
+M,4.0,Engineering,Portugal,C,2.0,good,Private,good,Close
+F,2.0,Engineering,Portugal,A,3.0,good,Private,good,Very close
+F,4.0,Engineering,Portugal,C,2.0,good,Private,good,Very close
+F,3.0,Engineering,Portugal,A,2.0,vgood,Private,good,Very close
+M,3.0,Engineering,Portugal,C,2.0,vgood,Private,good,Very close
+M,4.0,Engineering,Portugal,C,2.0,vgood,Private,good,Very close
+F,3.0,Engineering,Portugal,A,3.0,vgood,Non private,good,Close
+F,3.0,Engineering,Portugal,B,2.0,vgood,Private,good,Close
+M,3.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+M,3.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+M,2.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+M,2.0,Engineering,Portugal,C,2.0,vgood,Private,good,Close
+M,2.0,Engineering,Portugal,B,3.0,vgood,Private,good,Very close
+M,3.0,Engineering,Portugal,A,2.0,vgood,Private,good,Very close
+F,2.0,Engineering,Portugal,C,1.0,good,Private,good,Very close
+F,2.0,Engineering,Portugal,B,2.0,vgood,Non private,good,Very close
+F,4.0,Engineering,Portugal,C,2.0,poor,Non private,good,Very close
+F,4.0,Engineering,Portugal,C,2.0,poor,Private,good,Very close
+F,4.0,Engineering,Portugal,C,1.0,poor,Private,good,Very close
+M,4.0,Engineering,Portugal,C,1.0,poor,Private,good,Very close
+M,3.0,Engineering,Portugal,C,1.0,good,Private,good,Very close
+F,3.0,Engineering,Portugal,A,2.0,good,Private,poor,Very close
+F,3.0,Engineering,Portugal,C,3.0,poor,Private,good,Very close
+F,2.0,Engineering,Portugal,C,1.0,good,Private,good,Very close
+F,3.0,Engineering,Portugal,B,2.0,vgood,Private,poor,Close
+F,3.0,Engineering,Portugal,C,1.0,poor,Non private,good,Very close
+M,4.0,Engineering,Portugal,C,2.0,poor,Private,good,Very close
+F,3.0,Engineering,Portugal,C,1.0,good,Non private,good,Close
+F,3.0,Engineering,Portugal,A,3.0,good,Private,good,Very close
+F,3.0,Engineering,Portugal,B,2.0,good,Non private,poor,Very close
+M,3.0,Engineering,Portugal,A,2.0,good,Private,good,Close
+M,3.0,Engineering,Portugal,B,2.0,vgood,Non private,good,Close
+M,2.0,Engineering,Portugal,A,1.0,good,Private,good,Very close
+M,2.0,Engineering,Portugal,A,1.0,good,Private,good,Very close
+F,3.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+M,3.0,Engineering,Portugal,A,3.0,vgood,Private,good,Very close
+F,3.0,Engineering,Portugal,C,3.0,poor,Private,good,Very close
+F,3.0,Engineering,Portugal,C,2.0,poor,Private,poor,Very close
+F,4.0,Engineering,Portugal,C,3.0,poor,Private,good,Very close
+M,2.0,Engineering,Portugal,A,1.0,good,Private,good,Very close
+F,3.0,Engineering,Portugal,C,2.0,good,Private,poor,Very close
+M,3.0,Engineering,Portugal,B,1.0,vgood,Private,good,Very close
+M,4.0,Engineering,Portugal,C,2.0,good,Private,good,Very close
+M,2.0,Engineering,Portugal,C,1.0,vgood,Private,good,Very close
+M,4.0,Engineering,Portugal,C,1.0,good,Private,good,Very close
+M,2.0,Engineering,Portugal,C,2.0,good,Private,good,Very close
+M,4.0,Engineering,Portugal,C,1.0,good,Private,good,Close
+M,2.0,Engineering,Portugal,B,1.0,vgood,Private,poor,Close
+M,3.0,Engineering,Portugal,B,1.0,vgood,Private,good,Very close
+M,3.0,Engineering,Portugal,C,1.0,vgood,Private,good,Very close
+F,4.0,Engineering,Portugal,B,2.0,vgood,Non private,good,Very close
+F,3.0,Engineering,Portugal,A,4.0,vgood,Private,good,Very close
+M,4.0,Engineering,Portugal,C,2.0,good,Private,good,Very close
+F,3.0,Engineering,Portugal,B,3.0,vgood,Private,good,Very close
+F,4.0,Engineering,Portugal,B,3.0,good,Private,poor,Very close
+F,4.0,Engineering,Portugal,B,2.0,good,Private,poor,Close
+M,4.0,Engineering,Portugal,A,2.0,vgood,Private,good,Very close
+M,3.0,Engineering,Portugal,C,1.0,vgood,Private,poor,Very close
+F,3.0,Engineering,Portugal,B,4.0,vgood,Private,good,Close
+F,4.0,Engineering,Portugal,A,2.0,vgood,Private,good,Close
+M,4.0,Engineering,Portugal,C,2.0,vgood,Private,good,Very close
+M,4.0,Engineering,Portugal,B,3.0,vgood,Private,poor,Very close
+F,3.0,Engineering,Portugal,B,3.0,vgood,Private,poor,Close
+F,4.0,Engineering,Portugal,B,3.0,vgood,Private,good,Very close
+M,3.0,Engineering,Portugal,C,1.0,good,Private,good,Very close
+M,4.0,Engineering,Portugal,A,2.0,good,Non private,good,Very close
+M,3.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+F,4.0,Engineering,Portugal,B,2.0,good,Private,good,Very close
+M,4.0,Engineering,Portugal,B,2.0,good,Private,good,Very close
+F,4.0,Engineering,Portugal,C,2.0,poor,Private,good,Very close
+F,4.0,Engineering,Portugal,A,4.0,poor,Private,good,Very close
+F,4.0,Engineering,Portugal,B,2.0,vgood,Private,poor,Very close
+M,3.0,Engineering,Portugal,A,2.0,vgood,Private,poor,Close
+F,4.0,Engineering,Portugal,A,2.0,good,Private,good,Very close
+F,3.0,Engineering,Portugal,A,2.0,good,Private,good,Very close
+F,3.0,Engineering,Portugal,B,2.0,good,Private,good,Very close
+F,4.0,Engineering,Portugal,C,2.0,poor,Non private,good,Very close
+M,4.0,Engineering,Portugal,B,1.0,good,Private,good,Close
+F,4.0,Engineering,Portugal,B,2.0,vgood,Private,good,Close
+F,3.0,Engineering,Portugal,A,3.0,good,Private,good,Very close
+M,4.0,Engineering,Portugal,C,1.0,vgood,Private,good,Very close
+M,4.0,Engineering,Portugal,C,1.0,poor,Private,good,Close
+M,3.0,Engineering,Portugal,C,1.0,poor,Non private,good,Very close
+M,3.0,Engineering,Portugal,B,1.0,poor,Non private,good,Very close
+F,4.0,Engineering,Portugal,A,4.0,vgood,Private,poor,Very close
+F,4.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+F,3.0,Engineering,Portugal,B,2.0,poor,Private,good,Very close
+F,4.0,Engineering,Portugal,B,2.0,poor,Private,good,Very close
+M,3.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+F,4.0,Engineering,Portugal,A,3.0,vgood,Private,good,Very close
+F,3.0,Engineering,Portugal,B,3.0,vgood,Private,good,Very close
+M,4.0,Engineering,Portugal,A,3.0,vgood,Private,good,Very close
+M,4.0,Engineering,Portugal,A,2.0,vgood,Non private,good,Very close
+M,4.0,Engineering,Portugal,A,2.0,vgood,Private,good,Very close
+F,3.0,Engineering,Portugal,A,3.0,vgood,Private,good,Very close
+F,3.0,Engineering,Portugal,A,4.0,vgood,Private,poor,Close
+M,4.0,Engineering,Portugal,A,3.0,vgood,Private,good,Very close
+M,3.0,Engineering,Portugal,A,1.0,vgood,Private,good,Very close
+F,4.0,Engineering,Portugal,B,2.0,vgood,Private,good,Very close
+F,4.0,Engineering,Portugal,A,4.0,vgood,Private,good,Very close
+M,4.0,Engineering,Portugal,A,1.0,vgood,Private,good,Fair
+F,4.0,Engineering,Portugal,A,2.0,vgood,Non private,good,Very close
+M,3.0,Engineering,Portugal,B,1.0,vgood,Private,good,Very close
+F,3.0,Engineering,Portugal,C,3.0,vgood,Private,good,Very close
+F,3.0,Engineering,Portugal,A,3.0,vgood,Private,good,Very close
+F,1.0,Arts,Pakistan,C,18.0,poor,Private,poor,Close
+F,2.0,Engineering,Pakistan,A,18.0,good,Private,vgood,Fair
+M,1.0,Engineering,Pakistan,C,14.0,poor,Private,vgood,Close
+F,3.0,Arts,Pakistan,B,11.0,poor,Private,poor,Very close
+M,4.0,Engineering,Pakistan,B,6.0,vgood,Non private,vgood,Fair
+M,3.0,Law,Pakistan,B,11.0,vgood,Non private,vgood,Close
+F,1.0,Engineering,Pakistan,B,5.0,poor,Non private,good,Very close
+F,1.0,Medicine,Pakistan,C,11.0,poor,Non private,good,Fair
+F,4.0,Engineering,Pakistan,A,18.0,poor,Private,poor,Close
+M,4.0,Law,Pakistan,C,16.0,poor,Private,poor,Fair
+M,2.0,Engineering,Pakistan,B,18.0,poor,Private,good,Fair
+M,2.0,Arts,Pakistan,A,10.0,poor,Non private,poor,Very close
+M,4.0,Medicine,Pakistan,A,20.0,good,Non private,good,Fair
+M,1.0,Law,Pakistan,A,9.0,vgood,Private,vgood,Very close
+F,4.0,Law,Pakistan,B,12.0,vgood,Private,vgood,Close
+M,2.0,Medicine,Pakistan,C,13.0,good,Non private,poor,Very close
+F,1.0,Science,Pakistan,A,14.0,poor,Private,poor,Very close
+F,4.0,Engineering,Pakistan,A,10.0,vgood,Private,poor,Close
+M,4.0,Medicine,Pakistan,B,7.0,vgood,Non private,vgood,Fair
+F,3.0,Engineering,Pakistan,C,8.0,good,Non private,good,Close
+M,3.0,Business,Pakistan,A,10.0,good,Non private,poor,Very close
+F,1.0,Medicine,Pakistan,B,9.0,vgood,Private,good,Very close
+F,1.0,Law,Pakistan,A,19.0,poor,Private,poor,Very close
+F,1.0,Business,Pakistan,C,16.0,poor,Non private,vgood,Close
+M,3.0,Engineering,Pakistan,A,16.0,good,Non private,vgood,Fair
+M,1.0,Engineering,Pakistan,A,12.0,poor,Non private,poor,Fair
+F,1.0,Business,Pakistan,A,18.0,vgood,Private,poor,Very close
+M,3.0,Engineering,Pakistan,B,11.0,poor,Private,poor,Very close
+M,3.0,Arts,Pakistan,C,17.0,vgood,Private,good,Fair
+F,1.0,Engineering,Pakistan,B,18.0,poor,Non private,vgood,Very close
+M,4.0,Arts,Pakistan,B,11.0,vgood,Non private,poor,Very close
+F,3.0,Arts,Pakistan,A,5.0,good,Private,vgood,Fair
+M,1.0,Science,Pakistan,C,17.0,good,Private,poor,Fair
+M,3.0,Arts,Pakistan,A,17.0,vgood,Non private,poor,Fair
+M,2.0,Engineering,Pakistan,A,14.0,vgood,Non private,vgood,Fair
+M,2.0,Arts,Pakistan,A,10.0,good,Private,vgood,Very close
+F,4.0,Arts,Pakistan,A,11.0,vgood,Private,poor,Very close
+M,1.0,Business,Pakistan,A,15.0,poor,Non private,vgood,Close
+F,1.0,Business,Pakistan,C,12.0,poor,Non private,vgood,Very close
+M,4.0,Engineering,Pakistan,C,14.0,vgood,Non private,vgood,Close
+F,3.0,Arts,Pakistan,B,6.0,vgood,Non private,vgood,Very close
+F,4.0,Arts,Pakistan,B,12.0,good,Non private,good,Fair
+M,3.0,Law,Pakistan,B,9.0,poor,Private,vgood,Close
+M,4.0,Law,Pakistan,B,12.0,poor,Non private,good,Very close
+M,1.0,Arts,Pakistan,C,9.0,good,Non private,vgood,Fair
+M,1.0,Engineering,Pakistan,B,5.0,vgood,Private,poor,Fair
+F,4.0,Law,Pakistan,C,9.0,poor,Private,poor,Close
+M,1.0,Engineering,Pakistan,C,18.0,poor,Private,poor,Fair
+M,1.0,Engineering,Pakistan,A,7.0,poor,Non private,poor,Fair
+M,2.0,Science,Pakistan,B,6.0,good,Non private,good,Very close
+F,2.0,Medicine,Pakistan,C,17.0,poor,Private,poor,Close
+F,4.0,Engineering,Pakistan,B,17.0,poor,Non private,vgood,Close
+M,2.0,Business,Pakistan,C,16.0,good,Non private,poor,Fair
+F,4.0,Arts,Pakistan,C,13.0,poor,Private,vgood,Very close
+F,2.0,Science,Pakistan,C,5.0,good,Non private,vgood,Fair
+M,2.0,Medicine,Pakistan,B,8.0,good,Private,good,Close
+F,2.0,Law,Pakistan,B,14.0,poor,Private,vgood,Close
+F,1.0,Arts,Pakistan,C,6.0,poor,Private,vgood,Fair
+F,3.0,Business,Pakistan,C,14.0,poor,Private,good,Fair
+F,3.0,Medicine,Pakistan,C,6.0,good,Non private,good,Close
+M,1.0,Arts,Pakistan,B,10.0,poor,Private,good,Very close
+M,4.0,Engineering,Pakistan,A,16.0,vgood,Private,good,Close
+F,2.0,Science,Pakistan,B,19.0,poor,Non private,good,Fair
+F,2.0,Business,Pakistan,A,20.0,poor,Private,poor,Close
+F,3.0,Medicine,Pakistan,A,6.0,good,Private,good,Close
+F,4.0,Medicine,Pakistan,A,11.0,good,Private,poor,Close
+F,3.0,Engineering,Pakistan,C,14.0,poor,Private,vgood,Fair
+M,3.0,Arts,Pakistan,C,20.0,poor,Private,vgood,Very close
+M,3.0,Business,Pakistan,C,15.0,vgood,Non private,poor,Fair
+F,1.0,Science,Pakistan,C,5.0,poor,Private,vgood,Fair
+F,1.0,Science,Pakistan,A,7.0,poor,Private,vgood,Fair
+F,1.0,Science,Pakistan,C,5.0,vgood,Private,good,Very close
+M,3.0,Law,Pakistan,C,10.0,poor,Non private,poor,Fair
+M,1.0,Medicine,Pakistan,C,12.0,poor,Private,poor,Very close
+M,1.0,Arts,Pakistan,C,5.0,good,Private,poor,Close
+F,1.0,Medicine,Pakistan,C,9.0,vgood,Private,poor,Fair
+F,4.0,Law,Pakistan,A,13.0,vgood,Private,poor,Close
+F,4.0,Science,Pakistan,C,7.0,poor,Private,good,Close
+M,1.0,Law,Pakistan,C,18.0,good,Non private,poor,Fair
+M,2.0,Engineering,Pakistan,C,10.0,poor,Non private,good,Fair
+F,1.0,Engineering,Pakistan,A,12.0,good,Non private,good,Very close
+F,1.0,Medicine,Pakistan,A,15.0,vgood,Private,vgood,Close
+F,1.0,Law,Pakistan,A,12.0,vgood,Private,poor,Close
+M,1.0,Engineering,Pakistan,C,16.0,vgood,Private,good,Fair
+M,3.0,Medicine,Pakistan,A,17.0,poor,Non private,vgood,Fair
+M,2.0,Medicine,Pakistan,C,19.0,good,Private,poor,Close
+M,2.0,Arts,Pakistan,A,19.0,poor,Non private,poor,Very close
+F,1.0,Engineering,Pakistan,A,15.0,poor,Non private,poor,Very close
+M,4.0,Business,Pakistan,C,14.0,vgood,Private,good,Close
+F,1.0,Engineering,Pakistan,B,15.0,vgood,Private,vgood,Fair
+F,4.0,Arts,Pakistan,B,17.0,good,Private,poor,Fair
+F,2.0,Medicine,Pakistan,A,6.0,good,Private,vgood,Close
+F,2.0,Arts,Pakistan,C,12.0,good,Non private,vgood,Fair
+M,3.0,Business,Pakistan,A,15.0,good,Non private,vgood,Very close
+F,2.0,Science,Pakistan,A,9.0,poor,Non private,good,Very close
+M,1.0,Arts,Pakistan,A,16.0,vgood,Non private,vgood,Very close
+M,1.0,Engineering,Pakistan,A,9.0,good,Non private,poor,Very close
+M,1.0,Law,Pakistan,B,5.0,good,Private,poor,Fair
+M,1.0,Medicine,Pakistan,A,8.0,poor,Private,vgood,Fair
+F,2.0,Medicine,Pakistan,C,15.0,poor,Private,vgood,Fair
+F,3.0,Arts,Pakistan,A,10.0,good,Non private,vgood,Close
+F,1.0,Law,Pakistan,A,7.0,good,Non private,vgood,Very close
+F,4.0,Law,Pakistan,A,6.0,good,Private,poor,Very close
+M,1.0,Arts,Pakistan,B,8.0,good,Private,poor,Very close
+F,1.0,Law,Pakistan,B,16.0,good,Non private,good,Fair
+F,1.0,Science,Pakistan,A,15.0,vgood,Private,good,Close
+M,4.0,Law,Pakistan,C,6.0,poor,Non private,good,Fair
+F,1.0,Medicine,Pakistan,B,16.0,good,Non private,poor,Close
+M,2.0,Business,Pakistan,C,14.0,vgood,Non private,vgood,Close
+F,1.0,Engineering,Pakistan,A,8.0,good,Non private,vgood,Very close
+M,3.0,Law,Pakistan,A,6.0,vgood,Private,good,Fair
+M,1.0,Science,Pakistan,C,19.0,good,Private,poor,Fair
+M,4.0,Engineering,Pakistan,C,20.0,good,Non private,vgood,Fair
+M,2.0,Arts,Pakistan,C,20.0,good,Private,vgood,Very close
+M,2.0,Law,Pakistan,A,7.0,vgood,Non private,vgood,Fair
+F,3.0,Medicine,Pakistan,A,8.0,poor,Non private,vgood,Very close
+M,1.0,Law,Pakistan,C,11.0,good,Private,good,Close
+F,3.0,Business,Pakistan,C,15.0,vgood,Non private,good,Fair
+F,1.0,Business,Pakistan,B,11.0,poor,Private,vgood,Very close
+M,1.0,Medicine,Pakistan,A,11.0,good,Non private,poor,Close
+F,4.0,Business,Pakistan,B,20.0,poor,Non private,vgood,Very close
+M,1.0,Arts,Pakistan,C,16.0,good,Non private,poor,Very close
+M,1.0,Engineering,Pakistan,B,7.0,vgood,Private,vgood,Fair
+M,1.0,Business,Pakistan,A,17.0,good,Private,vgood,Fair
+M,4.0,Science,Pakistan,C,11.0,good,Non private,poor,Close
+M,4.0,Arts,Pakistan,B,2.0,vgood,Private,good,Close
+F,2.0,Law,Pakistan,B,7.0,vgood,Non private,poor,Close
+M,2.0,Business,Pakistan,A,20.0,good,Private,vgood,Fair
+F,1.0,Medicine,Pakistan,B,15.0,good,Private,good,Fair
+M,4.0,Medicine,Pakistan,B,8.0,good,Private,vgood,Fair
+F,2.0,Engineering,Pakistan,A,10.0,vgood,Private,poor,Fair
+M,1.0,Science,Pakistan,C,13.0,vgood,Private,poor,Fair
+F,1.0,Science,Pakistan,A,16.0,poor,Non private,good,Very close
+M,2.0,Engineering,Pakistan,A,17.0,poor,Private,good,Very close
+M,4.0,Arts,Pakistan,A,10.0,poor,Private,poor,Close
+F,1.0,Arts,Pakistan,A,12.0,good,Private,poor,Close
+M,2.0,Science,Pakistan,A,20.0,vgood,Non private,poor,Close
+M,2.0,Medicine,Pakistan,C,14.0,vgood,Non private,good,Fair
+M,1.0,Science,Pakistan,B,11.0,poor,Non private,vgood,Fair
+F,1.0,Business,Pakistan,C,11.0,poor,Non private,good,Close
+M,3.0,Science,Pakistan,C,12.0,good,Private,good,Fair
+M,1.0,Engineering,Pakistan,C,14.0,vgood,Non private,good,Close
+F,3.0,Medicine,Pakistan,C,20.0,good,Non private,good,Fair
+F,3.0,Arts,Pakistan,A,8.0,vgood,Non private,good,Fair
+F,4.0,Business,Pakistan,C,8.0,good,Private,poor,Close
+M,3.0,Medicine,Pakistan,A,13.0,good,Non private,good,Fair
+F,4.0,Law,Pakistan,C,14.0,vgood,Private,good,Very close
+M,2.0,Medicine,Pakistan,B,18.0,good,Non private,good,Very close
+F,2.0,Law,Pakistan,A,18.0,vgood,Private,good,Fair
+M,3.0,Engineering,Pakistan,B,13.0,good,Private,vgood,Very close
+F,1.0,Science,Pakistan,B,5.0,vgood,Private,vgood,Very close
+F,4.0,Business,Pakistan,A,12.0,vgood,Private,vgood,Very close
+M,2.0,Science,Pakistan,C,7.0,poor,Private,good,Very close
+M,4.0,Law,Pakistan,A,17.0,good,Private,vgood,Very close
+F,3.0,Engineering,Pakistan,C,19.0,vgood,Private,vgood,Very close
+M,1.0,Business,Pakistan,A,14.0,poor,Non private,good,Very close
+M,1.0,Science,Pakistan,C,17.0,poor,Private,poor,Very close
+M,1.0,Business,Pakistan,B,17.0,vgood,Private,good,Fair
+M,2.0,Science,Pakistan,A,5.0,poor,Non private,vgood,Very close
+M,3.0,Medicine,Pakistan,C,11.0,vgood,Non private,vgood,Very close
+F,2.0,Arts,Pakistan,B,17.0,vgood,Non private,good,Fair
+F,2.0,Business,Pakistan,A,20.0,poor,Private,poor,Close
+F,1.0,Medicine,Pakistan,A,20.0,good,Private,poor,Very close
+M,3.0,Science,Pakistan,C,19.0,good,Non private,good,Very close
+F,4.0,Business,Pakistan,B,18.0,good,Non private,good,Close
+M,1.0,Business,Pakistan,C,6.0,good,Non private,poor,Close
+M,1.0,Arts,Pakistan,C,7.0,vgood,Private,vgood,Close
+M,1.0,Engineering,Pakistan,B,10.0,poor,Private,poor,Fair
+F,4.0,Engineering,Pakistan,A,10.0,poor,Private,poor,Close
+F,1.0,Business,Pakistan,C,5.0,poor,Non private,poor,Very close
+M,3.0,Engineering,Pakistan,C,8.0,poor,Non private,poor,Fair
+M,1.0,Arts,Pakistan,C,10.0,good,Non private,good,Fair
+F,1.0,Arts,Pakistan,C,16.0,vgood,Non private,good,Fair
+M,3.0,Law,Pakistan,B,14.0,poor,Non private,vgood,Very close
+F,2.0,Law,Pakistan,A,6.0,vgood,Non private,poor,Close
+M,1.0,Engineering,Pakistan,A,18.0,good,Non private,poor,Fair
+F,2.0,Business,Pakistan,B,10.0,good,Non private,vgood,Very close
+F,1.0,Law,Pakistan,B,10.0,good,Non private,good,Fair
+M,1.0,Medicine,Pakistan,B,13.0,poor,Private,vgood,Very close
+M,1.0,Science,Pakistan,A,14.0,vgood,Non private,vgood,Very close
+M,1.0,Law,Pakistan,B,15.0,poor,Non private,good,Fair
+M,1.0,Science,Pakistan,C,20.0,vgood,Non private,good,Fair
+M,1.0,Science,Pakistan,A,12.0,good,Non private,poor,Fair
+F,2.0,Science,Pakistan,C,16.0,vgood,Private,poor,Very close
+M,3.0,Engineering,Pakistan,A,10.0,poor,Non private,poor,Close
+F,1.0,Science,Pakistan,A,13.0,poor,Private,good,Very close
+F,1.0,Engineering,Pakistan,A,11.0,good,Non private,vgood,Fair
+F,4.0,Arts,Pakistan,A,18.0,vgood,Private,good,Very close
+F,1.0,Business,Pakistan,C,15.0,good,Private,good,Close
+F,1.0,Law,Pakistan,A,13.0,vgood,Non private,vgood,Fair
+M,1.0,Engineering,Pakistan,B,14.0,good,Private,vgood,Fair
+F,3.0,Law,Pakistan,A,13.0,vgood,Non private,vgood,Close
+M,1.0,Engineering,Pakistan,B,11.0,vgood,Non private,good,Close
+F,3.0,Business,Pakistan,C,5.0,vgood,Non private,good,Close
+F,4.0,Business,Pakistan,A,16.0,vgood,Private,good,Very close
+F,1.0,Law,Pakistan,C,8.0,poor,Non private,poor,Very close
+F,3.0,Medicine,Pakistan,A,9.0,good,Non private,poor,Very close
+M,1.0,Medicine,Pakistan,B,13.0,vgood,Non private,vgood,Fair
+F,2.0,Business,Pakistan,C,7.0,vgood,Private,vgood,Fair
+F,1.0,Law,Pakistan,B,20.0,vgood,Private,vgood,Very close
+M,4.0,Law,Pakistan,B,15.0,vgood,Private,poor,Fair
+F,1.0,Medicine,Pakistan,C,13.0,poor,Private,vgood,Fair
+F,1.0,Science,Pakistan,A,10.0,vgood,Non private,good,Very close
+F,1.0,Arts,Pakistan,C,11.0,vgood,Private,good,Fair
+M,2.0,Law,Pakistan,C,20.0,poor,Private,good,Close
+F,1.0,Medicine,Pakistan,C,9.0,good,Non private,good,Close
+M,2.0,Arts,Pakistan,A,7.0,good,Private,vgood,Close
+F,1.0,Business,Pakistan,C,16.0,vgood,Private,poor,Close
+M,3.0,Arts,Pakistan,C,20.0,vgood,Private,vgood,Very close
+M,3.0,Medicine,Pakistan,C,7.0,good,Non private,good,Fair
