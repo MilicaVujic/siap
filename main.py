@@ -9,9 +9,24 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import accuracy_score
 
-#modeli
+from graphs import calculate_combined_boundaries, categorize_attendance
+
+# graphs
+af_data = pd.read_csv('datasets/afrika.csv')
+ir_data = pd.read_csv('datasets/irak.csv')
+pk_data = pd.read_csv('datasets/pakistan.csv')
+af_data = af_data.dropna(subset=['Your Matric (grade 12) Average/ GPA (in %)'])
+ir_data = ir_data.dropna(subset=['Avg1', 'Avg2'])
+
+africa_grades = af_data['Your Matric (grade 12) Average/ GPA (in %)']
+iraq_avg_grades = ((ir_data['Avg1'] + ir_data['Avg2']) / 2)
+
+boundaries = calculate_combined_boundaries(africa_grades, iraq_avg_grades)
+boundaries_attendance=categorize_attendance(pk_data,"Attendance")
+
+#models
 #rf
-data = pd.read_csv('Afr-Ir-Por-Pak.csv')
+data = pd.read_csv('datasets/Afr-Ir-Por-Pak.csv')
 
 #X = data.drop(columns=['ocena', 'pol', 'u_romanticnoj_vezi'])  
 X=data.drop(columns=['pol','ocena'])
@@ -41,8 +56,8 @@ X_valid=scaler.transform(X_valid)
 knn_model = KNeighborsClassifier(
     algorithm = 'auto',
     leaf_size = 5,
-    metric = 'manhattan',
-    n_neighbors = 15,
+    metric = 'minkowski',
+    n_neighbors = 23,
     p = 1,
     weights = 'uniform'
 )
@@ -59,16 +74,18 @@ print(f"Tačnost k-NN modela na test skupu: {knn_test_accuracy:.4f}")
 
 #RF
 rf = RandomForestClassifier(
-    n_estimators=100,  
+    n_estimators=200,  
     max_depth=10,    
     random_state=42,
     min_samples_split=15,
-    min_samples_leaf=5   
+    min_samples_leaf=5,
+    class_weight='balanced'   
 )
 
+#Perhaps use GridSearchCV or RandomizedSearchCV for hyperparameter tuning and better results
 rf.fit(X_train, y_train)
 
-#Pokazuje koliko je koja kolona bitna za krajnji rezultat
+#Shows what column is more important for the result
 importances = rf.feature_importances_
 indices = np.argsort(importances)[::-1]
 for idx in indices:
@@ -120,5 +137,5 @@ for i in range(len(X)):
 X = scaler.transform(X)
 predicted_output = mlp.predict(X)
 
-#problem je sto ne znam sta je [0], [1], [2]
+# We are not sure what is relationship between A, B and C and [0], [1], [2]
 print("Predicted Output:", predicted_output)

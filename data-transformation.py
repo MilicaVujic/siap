@@ -4,10 +4,10 @@ from sklearn.cluster import KMeans
 import numpy as np
 import re
 
-af_data = pd.read_csv('afrikaNovi.csv')
-ir_data = pd.read_csv('irak.csv')
-pk_data = pd.read_csv('pakistan.csv')
-pr_data = pd.read_csv('Portuguese.csv')
+af_data = pd.read_csv('datasets/afrikaNovi.csv')
+ir_data = pd.read_csv('datasets/irak.csv')
+pk_data = pd.read_csv('datasets/pakistan.csv')
+pr_data = pd.read_csv('datasets/Portuguese.csv')
 
 pk_data = pk_data.dropna(subset=["Study_Space", "Financial_Status", "Parental_Involvement","Attendance"])
 
@@ -412,6 +412,6 @@ reverse_mapping = {v: k for k, v in status_mapping.items()}
 empty_dataset['finansijski_status'] = empty_dataset['finansijski_status_numeric'].round().astype(int).map(reverse_mapping)
 
 empty_dataset = empty_dataset.drop(columns=['finansijski_status_numeric'])
-empty_dataset.to_csv('Afr-Ir-Por-Pak.csv', index=False)
+empty_dataset.to_csv('datasets/Afr-Ir-Por-Pak.csv', index=False)
 
 print("Podaci su uspešno transformisani i sačuvani u fajlu 'Afr-Ir-Por-Pak.csv.")
