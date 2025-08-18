@@ -3,20 +3,39 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 import numpy as np
 import re
+from graphs import plot_grade_distribution_and_boundaries, categorize_attendance
 
 af_data = pd.read_csv('datasets/afrikaNovi.csv')
 ir_data = pd.read_csv('datasets/irak.csv')
 pk_data = pd.read_csv('datasets/pakistan.csv')
 pr_data = pd.read_csv('datasets/Portuguese.csv')
 
-pk_data = pk_data.dropna(subset=["Study_Space", "Financial_Status", "Parental_Involvement","Attendance"])
+pk_data = pk_data.dropna(subset=["Financial_Status", "Parental_Involvement","Attendance"])
+pk_data = pk_data.fillna({
+    "Study_Hours": 10,
+    "Study_Space": "No",
+})
 
 required_columns = ['pol', 'godina_studija', 'oblast', 'drzava', 'ocena', 
                     'sati_ucenja_nedeljno', 'prisustvo_na_nastavi', 'smestaj', 
-                    'finansijski_status', 'bliskost_sa_roditeljima']
+                    'finansijski_status', 'bliskost_sa_roditeljima', 'edukacija_roditelja', 'u_vezi']
 
 empty_dataset = pd.DataFrame(columns=required_columns)
 
+# Since the column 'Additional amount of studying (in hrs) per week' in Africa dataset is broken
+# we need to make this approximation mapping partying and alcohol consumption to study hours
+def map_partying_to_study_hours(value):
+    value = str(value).strip().lower()
+    if value == "only weekends":
+        return 3
+    try:
+        num = int(value.replace("+", ""))
+        if num <= 2:
+            return 2
+        else:
+            return 1
+    except ValueError:
+        return 1 
 
 def classify_afr_finance(range_str):
     range_str = str(range_str)
@@ -34,33 +53,34 @@ def classify_afr_finance(range_str):
             return 'poor'
     else:
         return 'poor'
+    
+def pakistani_year_of_study_mapping(age):
+        if pd.isna(age):
+            return None
+        try:
+            age = int(age)
+            if age in [18, 19]:
+                return 1
+            elif age == 20:
+                return 2
+            elif age == 21:
+                return 3
+            elif age == 22:
+                return 4
+            else:
+                return None
+        except ValueError:
+            return None
 
-
-
-def categorize_attendance(data, column):
-    attendance_values = data[column].dropna()
-
-    values = attendance_values.values.reshape(-1, 1)
-    kmeans = KMeans(n_clusters=3, random_state=42)
-    kmeans.fit(values)
-    centers = sorted(kmeans.cluster_centers_.flatten())
-    boundaries = [
-        min(values), 
-        (centers[0] + centers[1]) / 2, 
-        (centers[1] + centers[2]) / 2, 
-        max(values)
-    ]
-
-    plt.figure(figsize=(8, 5))
-    plt.hist(attendance_values, bins=15, color='skyblue', alpha=0.7, label='Raspodela prisustva')
-    for boundary in boundaries[1:3]:  
-        plt.axvline(boundary, color='red', linestyle='--', label=f'Granična vrednost: {boundary:.2f}')
-    plt.title('Distribucija vrednosti prisustva studenata iz Pakistana sa izracunatim granicama')
-    plt.xlabel('Prisustvo ( u procentima)')
-    plt.ylabel('Broj studenata')
-    plt.legend()
-    plt.show()
-    return boundaries[1:3]
+def map_pakistani_parent_education(value):
+    value = str(value).strip().lower()
+    if value == "graduate":
+        return 4
+    elif value == "college" or value == "some college":
+        return 3
+    else:
+        return 2
+     
 
 def classify_portugal_presence(absence):
     if absence > 9:
@@ -85,21 +105,6 @@ def classify_african_repeaters(num_of_fails):
         return 'no'
     else:
         return 'yes' 
-
-
-def plot_grade_distribution_and_boundaries(grades, title, lower_bound, upper_bound):
-    plt.figure(figsize=(8, 5))
-    plt.hist(grades, bins=15, color='skyblue', alpha=0.7, label='Raspodela ocena')
-
-    plt.axvline(lower_bound, color='red', linestyle='--', label=f'Donja granica: {lower_bound:.2f}')
-    plt.axvline(upper_bound, color='green', linestyle='--', label=f'Gornja granica: {upper_bound:.2f}')
-
-    plt.title(title)
-    plt.xlabel('Ocena')
-    plt.ylabel('Broj studenata')
-    plt.legend()
-    plt.show()
-
 
 def remove_outliers_and_determine_bounds(grades):
     Q1 = grades.quantile(0.41)
@@ -140,9 +145,7 @@ def transform_african_data(df):
     plot_grade_distribution_and_boundaries(grades, 'Distribucija ocena studenata iz Afrike', lower_bound, upper_bound-2)
     transformed['ocena'] = categorize_grades(grades, lower_bound, upper_bound)
 
-    transformed['sati_ucenja_nedeljno'] = df['Additional amount of studying (in hrs) per week'].apply(
-        lambda x: float(str(x).strip().replace('+', '')) if pd.notna(x) and str(x).strip().replace('+', '').isdigit() else '')
-
+    transformed['sati_ucenja_nedeljno'] = df['How often do you go out partying/socialising during the week?'].apply(map_partying_to_study_hours)
     transformed['prisustvo_na_nastavi'] = df['How many classes do you miss per week due to alcohol reasons, (i.e: being hungover or too tired?)'].apply(classify_african_presence)
 
     transformed['smestaj'] = df['Your Accommodation Status Last Year (2023)'].apply(
@@ -151,6 +154,10 @@ def transform_african_data(df):
     transformed['finansijski_status'] = df['Monthly Allowance in 2023'].apply(classify_afr_finance)
 
     transformed['bliskost_sa_roditeljima'] = df['How strong is your relationship with your parent/s?']
+
+    transformed['edukacija_roditelja'] = ''
+
+    transformed['u_vezi'] = df['Are you currently in a romantic relationship?'].apply(lambda x: 'yes' if 'Yes' in str(x) else 'no')
 
     return transformed
 
@@ -193,6 +200,16 @@ def transform_iraqi_data(df):
     }
     transformed['bliskost_sa_roditeljima'] = df['Family Relationship'].map(family_relationship_mapping)
 
+    parent_educational_mapping = {
+        'secondary': 2,
+        'higher': 4,
+        'medium': 3,
+        'ba': 5,
+    }
+    transformed['edukacija_roditelja'] = df['Father education'].map(parent_educational_mapping).fillna(1).astype(int)
+
+    transformed['u_vezi'] = df['Social Status'].apply(lambda x: 'no' if x.strip().lower() == 'single' else 'yes')
+
     return transformed
 
 def transform_portugal_data(df):
@@ -222,7 +239,7 @@ def transform_portugal_data(df):
 
     transformed['prisustvo_na_nastavi'] = df['absences'].apply(classify_portugal_presence)
 
-    transformed['smestaj'] = df['Pstatus'].apply(lambda x: 'Private' if x.strip() == 'T' else 'Non private')
+    transformed['smestaj'] = df['schoolsup'].apply(lambda x: 'Private' if x.strip() == 'no' else 'Non private')
 
     transformed['finansijski_status'] = df['internet'].apply(lambda x: 'poor' if x.strip() == 'no' else 'good')
 
@@ -235,6 +252,10 @@ def transform_portugal_data(df):
     }
     transformed['bliskost_sa_roditeljima'] = df['famrel'].map(family_relationship_mapping)
 
+    transformed['edukacija_roditelja'] = df['Fedu']
+
+    transformed['u_vezi'] = df['romantic']
+
     return transformed
 
 def transform_pakistani_data(df):
@@ -242,32 +263,14 @@ def transform_pakistani_data(df):
 
     transformed['pol'] = df['Gender']
 
-    def year_of_study_mapping(age):
-        if pd.isna(age):
-            return None
-        try:
-            age = int(age)
-            if age in [18, 19]:
-                return 1
-            elif age == 20:
-                return 2
-            elif age == 21:
-                return 3
-            elif age == 22:
-                return 4
-            else:
-                return None
-        except ValueError:
-            return None
-
-    transformed['godina_studija'] = df['Age'].apply(year_of_study_mapping)
+    transformed['godina_studija'] = df['Age'].apply(pakistani_year_of_study_mapping)
 
     transformed['oblast'] = df['Major']
     transformed['drzava'] = 'Pakistan'
     
     transformed['ocena'] = df['Grades']
 
-    transformed['sati_ucenja_nedeljno'] = df['Study_Hours'].apply(lambda x: float(x) if pd.notna(x) else '')
+    transformed['sati_ucenja_nedeljno'] = df['Study_Hours'].apply(lambda x: int(x/5) if pd.notna(x) else '')
     boundaries_attendance = categorize_attendance(pk_data, "Attendance")
 
     def attendance_quality(value):
@@ -295,7 +298,7 @@ def transform_pakistani_data(df):
         'High': 'vgood'
     }
     transformed['finansijski_status'] = df['Financial_Status'].apply(
-        lambda x: financial_mapping.get(str(x).strip(), '') if pd.notna(x) else ''
+        lambda x: financial_mapping.get(str(x).strip(), '') if pd.notna(x) else 'good'
     )
 
     parental_mapping = {
@@ -304,8 +307,13 @@ def transform_pakistani_data(df):
         'High': 'Very close'
     }
     transformed['bliskost_sa_roditeljima'] = df['Parental_Involvement'].apply(
-        lambda x: parental_mapping.get(str(x).strip(), '') if pd.notna(x) else ''
+        lambda x: parental_mapping.get(str(x).strip(), '') if pd.notna(x) else 'Close'
     )
+
+    transformed['edukacija_roditelja'] = df['Parental_Education'].apply(
+        lambda x: map_pakistani_parent_education(x))
+
+    transformed['u_vezi'] = ''
 
     return transformed
 
@@ -402,7 +410,6 @@ empty_dataset['sati_ucenja_nedeljno'] = (
     .interpolate(method='quadratic')
     .round(0)
 )
-#
 status_mapping = {'poor': 0, 'good': 1, 'vgood': 2}
 empty_dataset['finansijski_status_numeric'] = empty_dataset['finansijski_status'].map(status_mapping)
 

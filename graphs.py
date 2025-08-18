@@ -37,6 +37,19 @@ def calculate_combined_boundaries(africa_grades, iraq_avg_grades):
 
     return [boundaries[1], boundaries[2]]
 
+def plot_grade_distribution_and_boundaries(grades, title, lower_bound, upper_bound):
+    plt.figure(figsize=(8, 5))
+    plt.hist(grades, bins=15, color='skyblue', alpha=0.7, label='Raspodela ocena')
+
+    plt.axvline(lower_bound, color='red', linestyle='--', label=f'Donja granica: {lower_bound:.2f}')
+    plt.axvline(upper_bound, color='green', linestyle='--', label=f'Gornja granica: {upper_bound:.2f}')
+
+    plt.title(title)
+    plt.xlabel('Ocena')
+    plt.ylabel('Broj studenata')
+    plt.legend()
+    plt.show()
+
 
 def categorize_attendance(data, column):
     attendance_values = data[column].dropna()
