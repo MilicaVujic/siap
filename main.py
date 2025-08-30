@@ -31,12 +31,12 @@ data = data.replace('', np.nan)
 X=data.drop(columns=['ocena'])
 y = data['ocena']  
 
-label_encoder = LabelEncoder()
-
+feature_encoder = LabelEncoder()
 for column in X.select_dtypes(include=['object']).columns:
-    X[column] = label_encoder.fit_transform(X[column])
+    X[column] = feature_encoder.fit_transform(X[column])
 
-y = label_encoder.fit_transform(y)
+target_encoder = LabelEncoder()
+y = target_encoder.fit_transform(y)
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 X_train, X_valid, y_train, y_valid = train_test_split(X_train, y_train, test_size=0.1, random_state=42)
@@ -47,6 +47,7 @@ X_train=scaler.fit_transform(X_train)
 X_test=scaler.transform(X_test)
 X_valid=scaler.transform(X_valid)
 
+print('Treniranje modela za predikciju ocena studenata...\n')
 # KNN Model
 knn_model = KNeighborsClassifier(
     algorithm = 'auto',
@@ -78,14 +79,14 @@ rf = RandomForestClassifier(
 
 rf.fit(X_train, y_train)
 y_test_pred = rf.predict(X_test)
-print("RF Accuracy:", accuracy_score(y_test, y_test_pred))
+print("\nRF Accuracy:", accuracy_score(y_test, y_test_pred))
 
-#Shows what column is more important for the result
-#TODO: Show column names instead of numbers and do this for another algorithms if possible
+print('\nPrikaz koji atributi su najvažniji za predviđanje:')
+feature_names = X.columns
 importances = rf.feature_importances_
 indices = np.argsort(importances)[::-1]
 for idx in indices:
-    print(f"Feature {idx}: {importances[idx]}")
+    print(f"Feature '{feature_names[idx]}': {importances[idx]}")
 
 #mlp
 mlp = MLPClassifier(
@@ -102,26 +103,43 @@ mlp = MLPClassifier(
 
 mlp.fit(X_train, y_train)
 y_test_pred = mlp.predict(X_test)
-print("MLP Accuracy:", accuracy_score(y_test, y_test_pred))
+print("\nMLP Accuracy:", accuracy_score(y_test, y_test_pred))
 
-#Example of predicting student grades for random student
-X = [[
+# Primer predikcije za novog studenta
+student_columns = [
+    'pol',
+    'godina_studija',
+    'oblast',
+    'drzava',
+    'kolicina_ucenja',
+    'prisustvo_na_nastavi',
+    'smestaj',
+    'finansijski_status',
+    'bliskost_sa_roditeljima'
+]
+
+X_new = [[
       'M',          #pol
       3,            #godina
       'Arts',       #oblast
       'Portugal',   #drzava
-      3,            #sati ucenja
-      'vgood',      #prisustvo
+      2,            #sati ucenja (bolje reci kolicina ucenja na skali 1-4)
+      'vgood',      #prisustvo na nastavi
       'Private',    #smestaj
       'vgood',      #finansije
       'Very close'  #odnos sa roditeljima
-]]       
+]]
 
-for i in range(len(X)):
-    X[i] = label_encoder.fit_transform(X[i])
+print("\n--------------------------------------------")
+print("Primer podataka jednog studenta:")
+for col, val in zip(student_columns, X_new[0]):
+    print(f"{col}: {val};")
+    
+for i in range(len(X_new)):
+    X_new[i] = feature_encoder.fit_transform(X_new[i])
 
-X = scaler.transform(X)
-predicted_output = mlp.predict(X)
+X_new = scaler.transform(X_new)
+predicted_output = mlp.predict(X_new)
 
-#TODO: show class (A, B, or C) instead of numbers
-print("Predicted Output:", predicted_output)
+predicted_label = target_encoder.inverse_transform(predicted_output)
+print("\nPredvidjena ocena(klasa) studenta na osnovu podataka studenta:", predicted_label)

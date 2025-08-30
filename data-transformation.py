@@ -22,8 +22,8 @@ required_columns = ['pol', 'godina_studija', 'oblast', 'drzava', 'ocena',
 
 empty_dataset = pd.DataFrame(columns=required_columns)
 
-# Since the column 'Additional amount of studying (in hrs) per week' in Africa dataset is broken
-# we need to make this approximation mapping partying and alcohol consumption to study hours
+# S obzirom da kolona 'Additional amount of studying (in hrs) per week' u Africa dataset-u ne prikazuje dobre podatke,
+# moramo da napravimo ovakvu aproksimaciju gde mapiramo kolonu "partying and alcohol consumption" na količinu učenja
 def map_partying_to_study_hours(value):
     value = str(value).strip().lower()
     if value == "only weekends":
@@ -398,7 +398,7 @@ plt.show()
 print(f'Najuspešnija država je {najuspesnija_drzava} sa prosečnom uspešnošću {ocena_counts["Prosecna_uspesnost"].max():.2f}.')
 print(f'Najmanje uspešna država je {najmanje_uspesna_drzava} sa prosečnom uspešnošću {ocena_counts["Prosecna_uspesnost"].min():.2f}.')
 
-print("\nProsečan broj sati učenja nedeljno po državama:")
+print("\nProsečna količina učenja na skali 1-4 po državama:")
 print(sati_ucenja)
 
 transformed_pk_data = transformed_pk_data.sample(n=300, random_state=42)
